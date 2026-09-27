@@ -1,0 +1,789 @@
+﻿id,metin,duygu,konular,hata,model,ham_cevap
+1,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+2,Sorun yok.,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+3,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,temizlik|yedek_parça|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""temizlik"", ""yedek_parça"", ""personel""]
+}"
+4,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+5,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+6,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+7,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+8,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""süre"", ""personel""]
+}"
+9,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+10,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+11,"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumlu,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu""]
+}"
+12,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+13,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+14,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+15,-,Alakasız,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Alakasız"",
+  ""konular"": [""diğer""]
+}"
+16,"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,fiyat|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat"", ""iş_kalitesi""]
+}"
+17,Teşekkürler,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+18,"Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",Olumsuz,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""randevu""]
+}"
+19,"Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",Olumsuz,iş_kalitesi|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi"", ""süre""]
+}"
+20,"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumlu,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu""]
+}"
+21,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""süre"", ""personel""]
+}"
+22,"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumlu,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu""]
+}"
+23,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""süre"", ""personel""]
+}"
+24,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""temizlik""]
+}"
+25,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik""]
+}"
+26,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+27,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""temizlik""]
+}"
+28,-,Alakasız,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Alakasız"",
+  ""konular"": [""diğer""]
+}"
+29,Sorun yok.,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+30,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik|diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik"", ""diğer""]
+}"
+31,"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,fiyat|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat"", ""iş_kalitesi""]
+}"
+32,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Olumsuz,temizlik|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik"", ""fiyat""]
+}"
+33,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+34,"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumsuz,iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi""]
+}"
+35,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+36,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+37,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,personel|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel"", ""fiyat""]
+}"
+38,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+39,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+40,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+41,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+42,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+43,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+44,"Personel çok nazikti, sadece süre biraz uzun sürdü.",Karışık,personel|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""personel"", ""süre""]
+}"
+45,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+46,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+47,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+48,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+49,Sorun yok.,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+50,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,personel|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel"", ""fiyat""]
+}"
+51,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+52,Sorun yok.,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+53,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+54,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""süre"", ""personel""]
+}"
+55,"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumsuz,iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi""]
+}"
+56,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+57,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{""duygu"":""Olumsuz"",""konular"":[""süre"",""randevu""]}"
+58,Kötü diyemem ama bir daha gelir miyim bilmiyorum.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+59,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+60,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+61,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{""duygu"":""Olumlu"",""konular"":[""fiyat""]}"
+62,"Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+63,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+64,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+65,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+66,-,Alakasız,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Alakasız"",
+  ""konular"": [""diğer""]
+}"
+67,"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumsuz,iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi""]
+}"
+68,"Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",Olumsuz,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""randevu""]
+}"
+69,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+70,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+71,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Olumsuz,temizlik|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik"", ""fiyat""]
+}"
+72,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""fiyat""]
+}"
+73,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+74,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik|diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik"", ""diğer""]
+}"
+75,Sorun yok.,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+76,Sorun yok.,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+77,"Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",Karışık,randevu|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""randevu"", ""iş_kalitesi""]
+}"
+78,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+79,Kötü diyemem ama bir daha gelir miyim bilmiyorum.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+80,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""fiyat""]
+}"
+81,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+82,Fena değildi.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+83,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+84,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+85,Fena değildi.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+86,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+87,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""temizlik""]
+}"
+88,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+89,"Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{""duygu"":""Olumsuz"",""konular"":[""fiyat""]}"
+90,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+91,"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,süre|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""süre"", ""iş_kalitesi""]
+}"
+92,"Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+93,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,personel|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel"", ""fiyat""]
+}"
+94,"Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",Karışık,randevu|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""randevu"", ""iş_kalitesi""]
+}"
+95,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""fiyat""]
+}"
+96,"Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+97,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+98,"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,personel|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel"", ""süre""]
+}"
+99,İşçilik kalitesi iyiydi ama fiyatlandırma gerçekten pahalı.,Karışık,iş_kalitesi|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""iş_kalitesi"", ""fiyat""]
+}"
+100,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""fiyat""]
+}"
+101,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+102,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""fiyat""]
+}"
+103,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+104,?,Alakasız,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Alakasız"",
+  ""konular"": [""diğer""]
+}"
+105,"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""süre"", ""personel""]
+}"
+106,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik""]
+}"
+107,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+108,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+109,"Beklediğimden erken bitti, aradılar haber verdiler.",Olumlu,süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""süre""]
+}"
+110,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""temizlik""]
+}"
+111,?,Alakasız,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Alakasız"",
+  ""konular"": [""diğer""]
+}"
+112,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+113,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""temizlik""]
+}"
+114,Teşekkürler,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{""duygu"":""Olumlu"",""konular"":[""diğer""]}"
+115,İyi.,Olumlu,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""fiyat""]
+}"
+116,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+117,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+118,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+119,"Beklediğimden erken bitti, aradılar haber verdiler.",Olumlu,süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""süre""]
+}"
+120,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik""]
+}"
+121,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik""]
+}"
+122,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+123,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+124,Teşekkürler,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+125,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+126,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""süre"", ""personel""]
+}"
+127,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+128,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+129,"Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",Karışık,randevu|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""randevu"", ""iş_kalitesi""]
+}"
+130,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+131,"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumlu,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu""]
+}"
+132,"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumsuz,iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi""]
+}"
+133,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+134,"Beklediğimden erken bitti, aradılar haber verdiler.",Olumlu,süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""süre""]
+}"
+135,"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,fiyat|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat"", ""iş_kalitesi""]
+}"
+136,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+137,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+138,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,personel|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel"", ""fiyat""]
+}"
+139,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Olumsuz,fiyat|diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat"", ""diğer""]
+}"
+140,Fena değildi.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+141,Bir yıldız bile fazla.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+142,"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumsuz,iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi""]
+}"
+143,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+144,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,temizlik|yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""temizlik"", ""yedek_parça""]
+}"
+145,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+146,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+147,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik|diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik"", ""diğer""]
+}"
+148,"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumlu,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu""]
+}"
+149,Fena değildi.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+150,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+151,Teşekkürler,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+152,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik""]
+}"
+153,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""temizlik""]
+}"
+154,"Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",Karışık,randevu|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""randevu"", ""iş_kalitesi""]
+}"
+155,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+156,Fena değildi.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+157,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+158,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+159,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+160,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu"", ""süre""]
+}"
+161,Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""yedek_parça""]
+}"
+162,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+163,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+164,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+165,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+166,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+167,"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""yedek_parça"", ""süre""]
+}"
+168,Bir yıldız bile fazla.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+169,Fena değildi.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+170,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,temizlik|yedek_parça|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""temizlik"", ""yedek_parça"", ""personel""]
+}"
+171,Teşekkürler,Olumlu,diğer,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""diğer""]
+}"
+172,"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumsuz,iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi""]
+}"
+173,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,temizlik|yedek_parça|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""temizlik"", ""yedek_parça"", ""personel""]
+}"
+174,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+175,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+176,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+177,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+178,"Personel çok nazikti, sadece süre biraz uzun sürdü.",Karışık,personel|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""personel"", ""süre""]
+}"
+179,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+180,"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumlu,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""randevu""]
+}"
+181,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+182,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,personel|fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel"", ""fiyat""]
+}"
+183,"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,fiyat|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat"", ""iş_kalitesi""]
+}"
+184,"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+185,"Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",Olumsuz,randevu,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""randevu""]
+}"
+186,"Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",Olumsuz,iş_kalitesi|süre,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""iş_kalitesi"", ""süre""]
+}"
+187,"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,fiyat|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat"", ""personel""]
+}"
+188,"Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",Karışık,randevu|iş_kalitesi,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""randevu"", ""iş_kalitesi""]
+}"
+189,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""temizlik""]
+}"
+190,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+191,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""fiyat""]
+}"
+192,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+193,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""personel""]
+}"
+194,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,temizlik|personel|yedek_parça,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Karışık"",
+  ""konular"": [""temizlik"", ""personel"", ""yedek_parça""]
+}"
+195,Kötü diyemem ama bir daha gelir miyim bilmiyorum.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+196,"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumlu"",
+  ""konular"": [""süre"", ""personel""]
+}"
+197,"Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"
+198,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""personel""]
+}"
+199,"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,süre|personel,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""süre"", ""personel""]
+}"
+200,Bir yıldız bile fazla.,Olumsuz,fiyat,,nvidia/nemotron-3.5-lightning-30b-a3b,"{
+  ""duygu"": ""Olumsuz"",
+  ""konular"": [""fiyat""]
+}"

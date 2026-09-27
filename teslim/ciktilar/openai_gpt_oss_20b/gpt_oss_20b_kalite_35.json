@@ -1,0 +1,2035 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "dosya": "outputs/openai_gpt_oss_20b/gpt_oss_20b_etiketleme_200.jsonl",
+  "altin_set": "outputs/altin_set_35.json",
+  "degerlendirme_yontemi": "35 benzersiz altin metin kullanildi. Aynı metin 200 örneklemde tekrarlanıyorsa doğruluk hesabında 200.txt sırasındaki ilk geçerli tahmin esas alındı; bütün tekrar tahminleri ve kaynak satır numaraları ayrıca kaydedildi.",
+  "istek_ayarlari": {
+    "temperature": 0,
+    "top_p": 1,
+    "thinking": false,
+    "max_tokens": 512
+  },
+  "metrikler": {
+    "n": 35,
+    "eslesmeyen_veya_gecersiz_tahmin": 0,
+    "duygu_dogrulugu": {
+      "dogru": 33,
+      "toplam": 35,
+      "oran": 0.9428571428571428
+    },
+    "duygu_macro_f1": 0.9532407407407407,
+    "konu_tam_kume_dogrulugu": {
+      "tam_eslesen": 27,
+      "toplam": 35,
+      "oran": 0.7714285714285715
+    },
+    "konu_micro": {
+      "tp": 41,
+      "fp": 3,
+      "fn": 8,
+      "precision": 0.9318181818181818,
+      "recall": 0.8367346938775511,
+      "f1": 0.8817204301075268,
+      "support": 49
+    },
+    "konu_macro_f1": 0.8605158730158731,
+    "duygu_ve_konular_birlesik_tam_dogruluk": {
+      "tam_eslesen": 25,
+      "toplam": 35,
+      "oran": 0.7142857142857143
+    },
+    "duygu_sinif_bazli": {
+      "Olumlu": {
+        "precision": 1.0,
+        "recall": 0.8461538461538461,
+        "f1": 0.9166666666666666,
+        "support": 13
+      },
+      "Olumsuz": {
+        "precision": 0.9285714285714286,
+        "recall": 1.0,
+        "f1": 0.962962962962963,
+        "support": 13
+      },
+      "Karışık": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "support": 7
+      },
+      "Alakasız": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "duygu_karisiklik_matrisi_satir_altin_sutun_tahmin": {
+      "Olumlu": {
+        "Olumlu": 11,
+        "Olumsuz": 1,
+        "Karışık": 1,
+        "Alakasız": 0
+      },
+      "Olumsuz": {
+        "Olumlu": 0,
+        "Olumsuz": 13,
+        "Karışık": 0,
+        "Alakasız": 0
+      },
+      "Karışık": {
+        "Olumlu": 0,
+        "Olumsuz": 0,
+        "Karışık": 7,
+        "Alakasız": 0
+      },
+      "Alakasız": {
+        "Olumlu": 0,
+        "Olumsuz": 0,
+        "Karışık": 0,
+        "Alakasız": 2
+      }
+    },
+    "konu_sinif_bazli": {
+      "randevu": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "fiyat": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.888888888888889,
+        "support": 4
+      },
+      "süre": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333,
+        "support": 8
+      },
+      "personel": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 9
+      },
+      "iş_kalitesi": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 6
+      },
+      "yedek_parça": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "support": 1
+      },
+      "temizlik": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "diğer": {
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1": 0.9285714285714286,
+        "support": 14
+      }
+    }
+  },
+  "hata_ozeti": {
+    "duygu_altin_tahmin_hata_sayilari": [
+      {
+        "altin": "Olumlu",
+        "tahmin": "Karışık",
+        "adet": 1
+      },
+      {
+        "altin": "Olumlu",
+        "tahmin": "Olumsuz",
+        "adet": 1
+      }
+    ],
+    "en_cok_fazla_atanan_konular": [
+      {
+        "etiket": "yedek_parça",
+        "adet": 1
+      },
+      {
+        "etiket": "diğer",
+        "adet": 1
+      },
+      {
+        "etiket": "fiyat",
+        "adet": 1
+      }
+    ],
+    "en_cok_atlanan_konular": [
+      {
+        "etiket": "iş_kalitesi",
+        "adet": 3
+      },
+      {
+        "etiket": "personel",
+        "adet": 3
+      },
+      {
+        "etiket": "süre",
+        "adet": 1
+      },
+      {
+        "etiket": "diğer",
+        "adet": 1
+      }
+    ],
+    "hata_ornekleri": [
+      {
+        "id": 1,
+        "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+        "altin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "fiyat",
+            "iş_kalitesi"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "fiyat"
+          ],
+          "200_orneklem_satir_idleri": [
+            1,
+            146,
+            163
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "iş_kalitesi"
+          ],
+          "konu_fazlaliklari": []
+        }
+      },
+      {
+        "id": 3,
+        "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+        "altin": {
+          "duygu": "Karışık",
+          "konular": [
+            "personel",
+            "süre",
+            "temizlik"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Karışık",
+          "konular": [
+            "personel",
+            "temizlik",
+            "yedek_parça"
+          ],
+          "200_orneklem_satir_idleri": [
+            3,
+            144,
+            170,
+            173,
+            194
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "süre"
+          ],
+          "konu_fazlaliklari": [
+            "yedek_parça"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+        "altin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "iş_kalitesi",
+            "personel"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "diğer"
+          ],
+          "200_orneklem_satir_idleri": [
+            6,
+            45,
+            46,
+            56,
+            64,
+            150,
+            162,
+            179,
+            192,
+            193
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "iş_kalitesi",
+            "personel"
+          ],
+          "konu_fazlaliklari": [
+            "diğer"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+        "altin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "personel",
+            "randevu",
+            "süre"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "randevu",
+            "süre"
+          ],
+          "200_orneklem_satir_idleri": [
+            8,
+            54,
+            57,
+            199
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "personel"
+          ],
+          "konu_fazlaliklari": []
+        }
+      },
+      {
+        "id": 10,
+        "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+        "altin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "süre"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Karışık",
+          "konular": [
+            "süre"
+          ],
+          "200_orneklem_satir_idleri": [
+            131,
+            148,
+            180
+          ]
+        },
+        "eslesme": {
+          "duygu": false,
+          "konular_tam_eslesme": true,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [],
+          "konu_fazlaliklari": []
+        }
+      },
+      {
+        "id": 16,
+        "metin": "Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",
+        "altin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "diğer",
+            "randevu"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "randevu"
+          ],
+          "200_orneklem_satir_idleri": [
+            68,
+            185
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "diğer"
+          ],
+          "konu_fazlaliklari": []
+        }
+      },
+      {
+        "id": 19,
+        "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+        "altin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "iş_kalitesi",
+            "temizlik"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "temizlik"
+          ],
+          "200_orneklem_satir_idleri": [
+            74,
+            106,
+            120,
+            147,
+            152,
+            189
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "iş_kalitesi"
+          ],
+          "konu_fazlaliklari": []
+        }
+      },
+      {
+        "id": 21,
+        "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+        "altin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "iş_kalitesi"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumsuz",
+          "konular": [
+            "iş_kalitesi"
+          ],
+          "200_orneklem_satir_idleri": [
+            55,
+            67,
+            132,
+            142,
+            172
+          ]
+        },
+        "eslesme": {
+          "duygu": false,
+          "konular_tam_eslesme": true,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [],
+          "konu_fazlaliklari": []
+        }
+      },
+      {
+        "id": 22,
+        "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+        "altin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "personel"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "fiyat",
+            "personel"
+          ],
+          "200_orneklem_satir_idleri": [
+            50,
+            93,
+            138,
+            182
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [],
+          "konu_fazlaliklari": [
+            "fiyat"
+          ]
+        }
+      },
+      {
+        "id": 34,
+        "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+        "altin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "personel",
+            "süre"
+          ]
+        },
+        "tahmin": {
+          "duygu": "Olumlu",
+          "konular": [
+            "süre"
+          ],
+          "200_orneklem_satir_idleri": [
+            109,
+            119,
+            134
+          ]
+        },
+        "eslesme": {
+          "duygu": true,
+          "konular_tam_eslesme": false,
+          "birlesik_tam_eslesme": false,
+          "konu_eksikleri": [
+            "personel"
+          ],
+          "konu_fazlaliklari": []
+        }
+      }
+    ],
+    "tekrar_tahminleri_tutarsiz_altin_idleri": [
+      5,
+      7,
+      10,
+      11,
+      20,
+      21,
+      22,
+      24,
+      26,
+      29,
+      34
+    ],
+    "tekrar_tahminleri_tutarsiz_metinler": [
+      {
+        "altin_id": 5,
+        "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 6,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 45,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 46,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 56,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 64,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 150,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 162,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel",
+              "iş_kalitesi"
+            ]
+          },
+          {
+            "200_satir_id": 179,
+            "duygu": "Olumlu",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 192,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel"
+            ]
+          },
+          {
+            "200_satir_id": 193,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 7,
+        "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 8,
+            "duygu": "Olumsuz",
+            "konular": [
+              "randevu",
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 54,
+            "duygu": "Olumsuz",
+            "konular": [
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 57,
+            "duygu": "Olumsuz",
+            "konular": [
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 199,
+            "duygu": "Olumsuz",
+            "konular": [
+              "randevu",
+              "süre"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 10,
+        "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 131,
+            "duygu": "Karışık",
+            "konular": [
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 148,
+            "duygu": "Olumlu",
+            "konular": [
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 180,
+            "duygu": "Karışık",
+            "konular": [
+              "süre"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 11,
+        "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 60,
+            "duygu": "Olumsuz",
+            "konular": [
+              "personel"
+            ]
+          },
+          {
+            "200_satir_id": 69,
+            "duygu": "Olumsuz",
+            "konular": [
+              "personel"
+            ]
+          },
+          {
+            "200_satir_id": 117,
+            "duygu": "Olumsuz",
+            "konular": [
+              "personel"
+            ]
+          },
+          {
+            "200_satir_id": 133,
+            "duygu": "Olumsuz",
+            "konular": [
+              "personel"
+            ]
+          },
+          {
+            "200_satir_id": 158,
+            "duygu": "Olumsuz",
+            "konular": [
+              "personel"
+            ]
+          },
+          {
+            "200_satir_id": 184,
+            "duygu": "Olumsuz",
+            "konular": [
+              "diğer"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 20,
+        "metin": "Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 71,
+            "duygu": "Karışık",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 139,
+            "duygu": "Karışık",
+            "konular": [
+              "iş_kalitesi",
+              "diğer"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 21,
+        "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 55,
+            "duygu": "Olumsuz",
+            "konular": [
+              "iş_kalitesi"
+            ]
+          },
+          {
+            "200_satir_id": 67,
+            "duygu": "Olumsuz",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 132,
+            "duygu": "Olumsuz",
+            "konular": [
+              "iş_kalitesi"
+            ]
+          },
+          {
+            "200_satir_id": 142,
+            "duygu": "Olumsuz",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 172,
+            "duygu": "Olumsuz",
+            "konular": [
+              "iş_kalitesi"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 22,
+        "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 50,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel",
+              "fiyat"
+            ]
+          },
+          {
+            "200_satir_id": 93,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel",
+              "fiyat"
+            ]
+          },
+          {
+            "200_satir_id": 138,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel",
+              "fiyat"
+            ]
+          },
+          {
+            "200_satir_id": 182,
+            "duygu": "Olumlu",
+            "konular": [
+              "personel"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 24,
+        "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 43,
+            "duygu": "Karışık",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 59,
+            "duygu": "Karışık",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 164,
+            "duygu": "Karışık",
+            "konular": [
+              "iş_kalitesi"
+            ]
+          },
+          {
+            "200_satir_id": 165,
+            "duygu": "Karışık",
+            "konular": [
+              "iş_kalitesi"
+            ]
+          },
+          {
+            "200_satir_id": 191,
+            "duygu": "Karışık",
+            "konular": [
+              "diğer"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 26,
+        "metin": "Kötü diyemem ama bir daha gelir miyim bilmiyorum.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 58,
+            "duygu": "Karışık",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 79,
+            "duygu": "Karışık",
+            "konular": [
+              "diğer"
+            ]
+          },
+          {
+            "200_satir_id": 195,
+            "duygu": "Olumsuz",
+            "konular": [
+              "diğer"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 29,
+        "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 77,
+            "duygu": "Karışık",
+            "konular": [
+              "randevu"
+            ]
+          },
+          {
+            "200_satir_id": 94,
+            "duygu": "Olumsuz",
+            "konular": [
+              "randevu"
+            ]
+          },
+          {
+            "200_satir_id": 154,
+            "duygu": "Karışık",
+            "konular": [
+              "randevu"
+            ]
+          },
+          {
+            "200_satir_id": 188,
+            "duygu": "Olumsuz",
+            "konular": [
+              "randevu"
+            ]
+          }
+        ]
+      },
+      {
+        "altin_id": 34,
+        "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+        "tekrar_tahminleri": [
+          {
+            "200_satir_id": 109,
+            "duygu": "Olumlu",
+            "konular": [
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 119,
+            "duygu": "Olumlu",
+            "konular": [
+              "süre"
+            ]
+          },
+          {
+            "200_satir_id": 134,
+            "duygu": "Olumlu",
+            "konular": [
+              "süre",
+              "personel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "kayitlar": [
+    {
+      "id": 1,
+      "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "fiyat",
+          "iş_kalitesi"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "fiyat"
+        ],
+        "200_orneklem_satir_idleri": [
+          1,
+          146,
+          163
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "iş_kalitesi"
+        ],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 2,
+      "metin": "Sorun yok.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          2,
+          49,
+          52,
+          75,
+          76
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 3,
+      "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "personel",
+          "süre",
+          "temizlik"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "personel",
+          "temizlik",
+          "yedek_parça"
+        ],
+        "200_orneklem_satir_idleri": [
+          3,
+          144,
+          170,
+          173,
+          194
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "süre"
+        ],
+        "konu_fazlaliklari": [
+          "yedek_parça"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "fiyat"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "fiyat"
+        ],
+        "200_orneklem_satir_idleri": [
+          4,
+          5,
+          47,
+          65,
+          78,
+          84,
+          90,
+          103,
+          107,
+          118,
+          166,
+          176,
+          181,
+          190
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 5,
+      "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "iş_kalitesi",
+          "personel"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          6,
+          45,
+          46,
+          56,
+          64,
+          150,
+          162,
+          179,
+          192,
+          193
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "iş_kalitesi",
+          "personel"
+        ],
+        "konu_fazlaliklari": [
+          "diğer"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "randevu",
+          "süre"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "randevu",
+          "süre"
+        ],
+        "200_orneklem_satir_idleri": [
+          7,
+          48,
+          81,
+          97,
+          112,
+          136,
+          145,
+          160
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 7,
+      "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "personel",
+          "randevu",
+          "süre"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "randevu",
+          "süre"
+        ],
+        "200_orneklem_satir_idleri": [
+          8,
+          54,
+          57,
+          199
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "personel"
+        ],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 8,
+      "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          9,
+          41,
+          88,
+          155,
+          159,
+          161
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 9,
+      "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "personel"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "personel"
+        ],
+        "200_orneklem_satir_idleri": [
+          10,
+          51,
+          63,
+          73,
+          83,
+          101,
+          143,
+          174,
+          177,
+          198
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 10,
+      "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "süre"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "süre"
+        ],
+        "200_orneklem_satir_idleri": [
+          131,
+          148,
+          180
+        ]
+      },
+      "eslesme": {
+        "duygu": false,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 11,
+      "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "personel"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "personel"
+        ],
+        "200_orneklem_satir_idleri": [
+          60,
+          69,
+          117,
+          133,
+          158,
+          184
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 12,
+      "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          42,
+          53,
+          116,
+          175
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 13,
+      "metin": "-",
+      "altin": {
+        "duygu": "Alakasız",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Alakasız",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          66
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 14,
+      "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          135,
+          183,
+          187
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 15,
+      "metin": "Teşekkürler",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          114,
+          151,
+          171
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 16,
+      "metin": "Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer",
+          "randevu"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "randevu"
+        ],
+        "200_orneklem_satir_idleri": [
+          68,
+          185
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "diğer"
+        ],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 17,
+      "metin": "Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "iş_kalitesi"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "iş_kalitesi"
+        ],
+        "200_orneklem_satir_idleri": [
+          186
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 18,
+      "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "temizlik"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "temizlik"
+        ],
+        "200_orneklem_satir_idleri": [
+          87,
+          110,
+          113,
+          153
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 19,
+      "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "iş_kalitesi",
+          "temizlik"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "temizlik"
+        ],
+        "200_orneklem_satir_idleri": [
+          74,
+          106,
+          120,
+          147,
+          152,
+          189
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "iş_kalitesi"
+        ],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 20,
+      "metin": "Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          71,
+          139
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 21,
+      "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "iş_kalitesi"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "iş_kalitesi"
+        ],
+        "200_orneklem_satir_idleri": [
+          55,
+          67,
+          132,
+          142,
+          172
+        ]
+      },
+      "eslesme": {
+        "duygu": false,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 22,
+      "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "personel"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "fiyat",
+          "personel"
+        ],
+        "200_orneklem_satir_idleri": [
+          50,
+          93,
+          138,
+          182
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": [
+          "fiyat"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "süre",
+          "yedek_parça"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "süre",
+          "yedek_parça"
+        ],
+        "200_orneklem_satir_idleri": [
+          70,
+          86,
+          108,
+          137,
+          157,
+          167
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 24,
+      "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          43,
+          59,
+          164,
+          165,
+          191
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 25,
+      "metin": "Personel çok nazikti, sadece süre biraz uzun sürdü.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "personel",
+          "süre"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "personel",
+          "süre"
+        ],
+        "200_orneklem_satir_idleri": [
+          44,
+          178
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 26,
+      "metin": "Kötü diyemem ama bir daha gelir miyim bilmiyorum.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          58,
+          79,
+          195
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 27,
+      "metin": "İyi.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          61,
+          72,
+          80,
+          95,
+          100,
+          102,
+          115
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 28,
+      "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "fiyat"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "fiyat"
+        ],
+        "200_orneklem_satir_idleri": [
+          62,
+          89,
+          92,
+          96,
+          197
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 29,
+      "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "randevu"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "randevu"
+        ],
+        "200_orneklem_satir_idleri": [
+          77,
+          94,
+          154,
+          188
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 30,
+      "metin": "Fena değildi.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          82,
+          85,
+          140,
+          149,
+          156,
+          169
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 31,
+      "metin": "Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "personel",
+          "süre"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "personel",
+          "süre"
+        ],
+        "200_orneklem_satir_idleri": [
+          91,
+          98,
+          105,
+          196
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 32,
+      "metin": "İşçilik kalitesi iyiydi ama fiyatlandırma gerçekten pahalı.",
+      "altin": {
+        "duygu": "Karışık",
+        "konular": [
+          "fiyat",
+          "iş_kalitesi"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Karışık",
+        "konular": [
+          "fiyat",
+          "iş_kalitesi"
+        ],
+        "200_orneklem_satir_idleri": [
+          99
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 33,
+      "metin": "?",
+      "altin": {
+        "duygu": "Alakasız",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Alakasız",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          104,
+          111
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 34,
+      "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+      "altin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "personel",
+          "süre"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumlu",
+        "konular": [
+          "süre"
+        ],
+        "200_orneklem_satir_idleri": [
+          109,
+          119,
+          134
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": false,
+        "birlesik_tam_eslesme": false,
+        "konu_eksikleri": [
+          "personel"
+        ],
+        "konu_fazlaliklari": []
+      }
+    },
+    {
+      "id": 35,
+      "metin": "Bir yıldız bile fazla.",
+      "altin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer"
+        ]
+      },
+      "tahmin": {
+        "duygu": "Olumsuz",
+        "konular": [
+          "diğer"
+        ],
+        "200_orneklem_satir_idleri": [
+          141,
+          168,
+          200
+        ]
+      },
+      "eslesme": {
+        "duygu": true,
+        "konular_tam_eslesme": true,
+        "birlesik_tam_eslesme": true,
+        "konu_eksikleri": [],
+        "konu_fazlaliklari": []
+      }
+    }
+  ],
+  "gerekce_alani": "2-3 cümlelik, kanıta dayalı açıklama; iç düşünce dökümü değildir."
+}

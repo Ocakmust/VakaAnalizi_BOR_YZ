@@ -1,0 +1,2561 @@
+[
+  {
+    "id": 1,
+    "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Metinde 'Fiyat çok yüksek geldi' ifadesi, fiyatın müşteri için olumsuz bir konu olduğunu gösteriyor. Ayrıca, 'yarı fiyata yaptırabilirdim' karşılaştırması da fiyatın yüksekliğini vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 1, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Metinde 'Fiyat çok yüksek geldi' ifadesi, fiyatın müşteri için olumsuz bir konu olduğunu gösteriyor. Ayrıca, 'yarı fiyata yaptırabilirdim' karşılaştırması da fiyatın yüksekliğini vurguluyor.\"}"
+  },
+  {
+    "id": 2,
+    "metin": "Sorun yok.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "'Sorun yok' ifadesi, memnuniyet ve olumlu bir deneyim gösteriyor. Belirli bir konu yok, bu yüzden 'diğer' etiketi verildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 2, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"'Sorun yok' ifadesi, memnuniyet ve olumlu bir deneyim gösteriyor. Belirli bir konu yok, bu yüzden 'diğer' etiketi verildi.\"}"
+  },
+  {
+    "id": 3,
+    "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+    "duygu": "Karışık",
+    "konular": [
+      "temizlik",
+      "personel",
+      "yedek_parça"
+    ],
+    "gerekce": "Metinde 'Servis temizdi' ve 'ekip güler yüzlüydü' olumlu yönler olarak belirtilmiş, ancak 'yedek parça beklemesi can sıkıcıydı' ifadesi olumsuz bir eleştiri içeriyor. Bu nedenle hem olumlu hem de olumsuz unsurlar bulundu.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 3, \"duygu\": \"Karışık\", \"konular\": [\"temizlik\", \"personel\", \"yedek_parça\"], \"gerekce\": \"Metinde 'Servis temizdi' ve 'ekip güler yüzlüydü' olumlu yönler olarak belirtilmiş, ancak 'yedek parça beklemesi can sıkıcıydı' ifadesi olumsuz bir eleştiri içeriyor. Bu nedenle hem olumlu hem de olumsuz unsurlar bulundu.\"}"
+  },
+  {
+    "id": 4,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "'Fatura tutarı verilen tekliften yüksek çıktı' ifadesi, fiyatın beklenenden yüksek olduğunu gösteriyor. Ayrıca 'önceden bilgilendirilmedim' ifadesi, şeffaflık eksikliğini vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 4, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"'Fatura tutarı verilen tekliften yüksek çıktı' ifadesi, fiyatın beklenenden yüksek olduğunu gösteriyor. Ayrıca 'önceden bilgilendirilmedim' ifadesi, şeffaflık eksikliğini vurguluyor.\"}"
+  },
+  {
+    "id": 5,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Metinde aynı şekilde 'Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim' ifadesi, fiyatın yüksekliği ve bilgilendirme eksikliğini işaret ediyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 5, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Metinde aynı şekilde 'Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim' ifadesi, fiyatın yüksekliği ve bilgilendirme eksikliğini işaret ediyor.\"}"
+  },
+  {
+    "id": 6,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "'İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.' ifadesi, memnuniyet ve olumlu deneyim gösteriyor. Konu net değil, bu yüzden 'diğer' etiketi kullanıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 6, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"'İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.' ifadesi, memnuniyet ve olumlu deneyim gösteriyor. Konu net değil, bu yüzden 'diğer' etiketi kullanıldı.\"}"
+  },
+  {
+    "id": 7,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "'Randevu almak kolaydı' ifadesi randevu konusunu, 'işlem hızlı bitti' ise süre konusunu olumlu şekilde vurguluyor. Genel memnuniyet ifadesi de olumlu duyguya işaret ediyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 7, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"'Randevu almak kolaydı' ifadesi randevu konusunu, 'işlem hızlı bitti' ise süre konusunu olumlu şekilde vurguluyor. Genel memnuniyet ifadesi de olumlu duyguya işaret ediyor.\"}"
+  },
+  {
+    "id": 8,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "'Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi' ifadesi, randevu zamanına uyulmaması ve uzun bekleme süresini olumsuz şekilde anlatıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 8, \"duygu\": \"Olumsuz\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"'Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi' ifadesi, randevu zamanına uyulmaması ve uzun bekleme süresini olumsuz şekilde anlatıyor.\"}"
+  },
+  {
+    "id": 9,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "'Yedek araç verilmesi büyük kolaylık oldu' ifadesi, müşteri için olumlu bir deneyim ve kolaylık sağladığını gösteriyor. Konu yedek araç olduğu için 'diğer' etiketi verildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 9, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"'Yedek araç verilmesi büyük kolaylık oldu' ifadesi, müşteri için olumlu bir deneyim ve kolaylık sağladığını gösteriyor. Konu yedek araç olduğu için 'diğer' etiketi verildi.\"}"
+  },
+  {
+    "id": 10,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "'Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi' ifadesi, personel konusundaki olumsuz bir deneyimi net bir şekilde ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 10, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"'Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi' ifadesi, personel konusundaki olumsuz bir deneyimi net bir şekilde ortaya koyuyor.\"}"
+  },
+  {
+    "id": 11,
+    "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 12,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 13,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 14,
+    "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 15,
+    "metin": "-",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 16,
+    "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 17,
+    "metin": "Teşekkürler",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 18,
+    "metin": "Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 19,
+    "metin": "Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 20,
+    "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 11-20 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 21,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 22,
+    "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 23,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 24,
+    "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 25,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 26,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 27,
+    "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 28,
+    "metin": "-",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 29,
+    "metin": "Sorun yok.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 30,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 21-30 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 31,
+    "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 32,
+    "metin": "Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 33,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 34,
+    "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 35,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 36,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 37,
+    "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 38,
+    "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 39,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 40,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 31-40 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 41,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, yedek araç verilmesinin büyük bir kolaylık olduğunu belirtti. Bu olumlu deneyim, hizmetin müşteri memnuniyetine katkıda bulundu.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 41, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, yedek araç verilmesinin büyük bir kolaylık olduğunu belirtti. Bu olumlu deneyim, hizmetin müşteri memnuniyetine katkıda bulundu.\"}"
+  },
+  {
+    "id": 42,
+    "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Kampanya mesajı alındı ancak şubede geçerli olmadığı için müşteri hayal kırıklığı yaşadı. Bu durum, kampanya bilgilendirmesinde eksiklik olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 42, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Kampanya mesajı alındı ancak şubede geçerli olmadığı için müşteri hayal kırıklığı yaşadı. Bu durum, kampanya bilgilendirmesinde eksiklik olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 43,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "Karışık",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, hizmetin mükemmel olmadığını ama beklentinin altında kalmadığını ifade etti. Bu, hem olumlu hem de olumsuz bir değerlendirme içeriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 43, \"duygu\": \"Karışık\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, hizmetin mükemmel olmadığını ama beklentinin altında kalmadığını ifade etti. Bu, hem olumlu hem de olumsuz bir değerlendirme içeriyor.\"}"
+  },
+  {
+    "id": 44,
+    "metin": "Personel çok nazikti, sadece süre biraz uzun sürdü.",
+    "duygu": "Karışık",
+    "konular": [
+      "personel",
+      "süre"
+    ],
+    "gerekce": "Personel nazik davranıştan memnuniyet gösterirken, sürenin biraz uzun olması bir şikâyet oluşturdu. Dolayısıyla hem olumlu hem de olumsuz unsurlar mevcut.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 44, \"duygu\": \"Karışık\", \"konular\": [\"personel\", \"süre\"], \"gerekce\": \"Personel nazik davranıştan memnuniyet gösterirken, sürenin biraz uzun olması bir şikâyet oluşturdu. Dolayısıyla hem olumlu hem de olumsuz unsurlar mevcut.\"}"
+  },
+  {
+    "id": 45,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "İkinci kez gelen müşteri, sorunsuz deneyimden memnuniyetini dile getirerek ekibe teşekkür etti. Bu olumlu geri bildirim, hizmet kalitesini yansıtıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 45, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"İkinci kez gelen müşteri, sorunsuz deneyimden memnuniyetini dile getirerek ekibe teşekkür etti. Bu olumlu geri bildirim, hizmet kalitesini yansıtıyor.\"}"
+  },
+  {
+    "id": 46,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, ikinci kez gelerek sorunsuz bir deneyim yaşadığını ve ekibe teşekkür etti. Bu, hizmetin tutarlı ve memnuniyet verici olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 46, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, ikinci kez gelerek sorunsuz bir deneyim yaşadığını ve ekibe teşekkür etti. Bu, hizmetin tutarlı ve memnuniyet verici olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 47,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarı, verilen tekliften yüksek çıktı ve müşteri önceden bilgilendirilmedi. Bu durum, fiyat şeffaflığının eksik olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 47, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarı, verilen tekliften yüksek çıktı ve müşteri önceden bilgilendirilmedi. Bu durum, fiyat şeffaflığının eksik olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 48,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Randevu alma süreci kolaydı ve işlem hızlı tamamlandı. Müşteri memnuniyetini ifade etti.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 48, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Randevu alma süreci kolaydı ve işlem hızlı tamamlandı. Müşteri memnuniyetini ifade etti.\"}"
+  },
+  {
+    "id": 49,
+    "metin": "Sorun yok.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, \"sorun yok\" diyerek hizmetten memnun olduğunu belirtti. Bu kısa olumlu ifade, genel memnuniyeti yansıtıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 49, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, \\\"sorun yok\\\" diyerek hizmetten memnun olduğunu belirtti. Bu kısa olumlu ifade, genel memnuniyeti yansıtıyor.\"}"
+  },
+  {
+    "id": 50,
+    "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "fiyat"
+    ],
+    "gerekce": "Danışman, adımları tek tek anlattı ve fiyat konusunda şeffaflık sağladı. Müşteri bu açıklık ve nazik davranıştan memnun kaldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 50, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"fiyat\"], \"gerekce\": \"Danışman, adımları tek tek anlattı ve fiyat konusunda şeffaflık sağladı. Müşteri bu açıklık ve nazik davranıştan memnun kaldı.\"}"
+  },
+  {
+    "id": 51,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde danışmanın 'ilgisiz' olduğu ve sorulara 'doğru düzgün' cevap vermediği ifade ediliyor. Bu, personel hizmet kalitesine yönelik doğrudan bir şikâyet olarak değerlendiriliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 51, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde danışmanın 'ilgisiz' olduğu ve sorulara 'doğru düzgün' cevap vermediği ifade ediliyor. Bu, personel hizmet kalitesine yönelik doğrudan bir şikâyet olarak değerlendiriliyor.\"}"
+  },
+  {
+    "id": 52,
+    "metin": "Sorun yok.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"Sorun yok\" ifadesi, hizmetten memnuniyet ve sorunsuz bir deneyim olduğunu gösteriyor. Bu nedenle olumlu bir duygu olarak sınıflandırılıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 52, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"Sorun yok\\\" ifadesi, hizmetten memnuniyet ve sorunsuz bir deneyim olduğunu gösteriyor. Bu nedenle olumlu bir duygu olarak sınıflandırılıyor.\"}"
+  },
+  {
+    "id": 53,
+    "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Kampanya mesajının şubede geçerli olmaması, müşterinin beklentisini karşılamayan bir durumdur. Bu durum, hizmetle ilgili bir memnuniyetsizlik olarak yorumlanıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 53, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Kampanya mesajının şubede geçerli olmaması, müşterinin beklentisini karşılamayan bir durumdur. Bu durum, hizmetle ilgili bir memnuniyetsizlik olarak yorumlanıyor.\"}"
+  },
+  {
+    "id": 54,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Randevu saatinde iki saat beklemek ve kimse tarafından bilgilendirilmemek, bekleme süresiyle ilgili olumsuz bir deneyimdir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 54, \"duygu\": \"Olumsuz\", \"konular\": [\"süre\"], \"gerekce\": \"Randevu saatinde iki saat beklemek ve kimse tarafından bilgilendirilmemek, bekleme süresiyle ilgili olumsuz bir deneyimdir.\"}"
+  },
+  {
+    "id": 55,
+    "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "iş_kalitesi"
+    ],
+    "gerekce": "\"Hiç de memnun kalmadım\" ifadesi, iş kalitesiyle ilgili memnuniyetsizliği doğrudan gösteriyor. Müşteri, hizmetin beklentilerini karşılamadığını belirtiyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 55, \"duygu\": \"Olumsuz\", \"konular\": [\"iş_kalitesi\"], \"gerekce\": \"\\\"Hiç de memnun kalmadım\\\" ifadesi, iş kalitesiyle ilgili memnuniyetsizliği doğrudan gösteriyor. Müşteri, hizmetin beklentilerini karşılamadığını belirtiyor.\"}"
+  },
+  {
+    "id": 56,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "İkinci kez gelmek ve \"sorunsuz\" deneyim yaşamak, hizmetten memnuniyet gösteriyor. Ekibe teşekkür edilmesi de olumlu bir duygu işaretidir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 56, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"İkinci kez gelmek ve \\\"sorunsuz\\\" deneyim yaşamak, hizmetten memnuniyet gösteriyor. Ekibe teşekkür edilmesi de olumlu bir duygu işaretidir.\"}"
+  },
+  {
+    "id": 57,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Randevu saatinde iki saat beklemek ve bilgi alınmaması, bekleme süresiyle ilgili olumsuz bir deneyimdir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 57, \"duygu\": \"Olumsuz\", \"konular\": [\"süre\"], \"gerekce\": \"Randevu saatinde iki saat beklemek ve bilgi alınmaması, bekleme süresiyle ilgili olumsuz bir deneyimdir.\"}"
+  },
+  {
+    "id": 58,
+    "metin": "Kötü diyemem ama bir daha gelir miyim bilmiyorum.",
+    "duygu": "Karışık",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde \"kötü diyemem ama bir daha gelir miyim bilmiyorum\" ifadesi, hem olumsuz hem de belirsiz bir tutumu yansıtıyor. Bu nedenle karışık bir duygu olarak değerlendiriliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 58, \"duygu\": \"Karışık\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde \\\"kötü diyemem ama bir daha gelir miyim bilmiyorum\\\" ifadesi, hem olumsuz hem de belirsiz bir tutumu yansıtıyor. Bu nedenle karışık bir duygu olarak değerlendiriliyor.\"}"
+  },
+  {
+    "id": 59,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "Karışık",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"Mükemmel değildi ama beklentimin altında da kalmadı\" ifadesi, hem olumlu hem de olumsuz yönleri içeriyor. Bu nedenle karışık bir duygu olarak sınıflandırılıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 59, \"duygu\": \"Karışık\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"Mükemmel değildi ama beklentimin altında da kalmadı\\\" ifadesi, hem olumlu hem de olumsuz yönleri içeriyor. Bu nedenle karışık bir duygu olarak sınıflandırılıyor.\"}"
+  },
+  {
+    "id": 60,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Telefonla kimseye ulaşamamak ve çağrı merkezinin sürekli meşgul olması, personel iletişimiyle ilgili memnuniyetsizliği gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 60, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Telefonla kimseye ulaşamamak ve çağrı merkezinin sürekli meşgul olması, personel iletişimiyle ilgili memnuniyetsizliği gösteriyor.\"}"
+  },
+  {
+    "id": 61,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde sadece 'İyi.' ifadesi var, bu olumlu duygu gösteriyor; konu olarak belirli bir alan yok, bu yüzden 'diğer' etiketi kullanıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 61, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde sadece 'İyi.' ifadesi var, bu olumlu duygu gösteriyor; konu olarak belirli bir alan yok, bu yüzden 'diğer' etiketi kullanıldı.\"}"
+  },
+  {
+    "id": 62,
+    "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Metinde rakip markanın aynı işlemin daha ucuz olduğu belirtiliyor, bu fiyatla ilgili şikâyet; konu fiyat.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 62, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Metinde rakip markanın aynı işlemin daha ucuz olduğu belirtiliyor, bu fiyatla ilgili şikâyet; konu fiyat.\"}"
+  },
+  {
+    "id": 63,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde danışmanın ilgisiz olduğu ve soruya cevap vermediği ifade ediliyor; bu personel konusunu içeriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 63, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde danışmanın ilgisiz olduğu ve soruya cevap vermediği ifade ediliyor; bu personel konusunu içeriyor.\"}"
+  },
+  {
+    "id": 64,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'yine sorunsuz' ve 'teşekkürler' ifadesi olumlu duygu gösteriyor; konu belirli değil, 'diğer' etiketi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 64, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'yine sorunsuz' ve 'teşekkürler' ifadesi olumlu duygu gösteriyor; konu belirli değil, 'diğer' etiketi.\"}"
+  },
+  {
+    "id": 65,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Metinde fatura tutarının tekliften yüksek olduğu ve bilgilendirilmediği belirtiliyor; fiyat konusunu içeriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 65, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Metinde fatura tutarının tekliften yüksek olduğu ve bilgilendirilmediği belirtiliyor; fiyat konusunu içeriyor.\"}"
+  },
+  {
+    "id": 66,
+    "metin": "-",
+    "duygu": "Alakasız",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metin boş veya anlamsız, bu yüzden duygu Alakasız ve konu 'diğer'.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 66, \"duygu\": \"Alakasız\", \"konular\": [\"diğer\"], \"gerekce\": \"Metin boş veya anlamsız, bu yüzden duygu Alakasız ve konu 'diğer'.\"}"
+  },
+  {
+    "id": 67,
+    "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde memnun kalmadığı ifade ediliyor; konu belirli değil, 'diğer' etiketi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 67, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde memnun kalmadığı ifade ediliyor; konu belirli değil, 'diğer' etiketi.\"}"
+  },
+  {
+    "id": 68,
+    "metin": "Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "randevu"
+    ],
+    "gerekce": "Metinde web sitesinden randevu alınamadığı ve hata verildiği belirtiliyor; randevu konusunu içeriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 68, \"duygu\": \"Olumsuz\", \"konular\": [\"randevu\"], \"gerekce\": \"Metinde web sitesinden randevu alınamadığı ve hata verildiği belirtiliyor; randevu konusunu içeriyor.\"}"
+  },
+  {
+    "id": 69,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde çağrı merkezinin meşgul olduğu ve kimseye ulaşamamanın personel konusunu içerdiği görülüyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 69, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde çağrı merkezinin meşgul olduğu ve kimseye ulaşamamanın personel konusunu içerdiği görülüyor.\"}"
+  },
+  {
+    "id": 70,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "yedek_parça",
+      "süre"
+    ],
+    "gerekce": "Metinde yedek parçanın iki hafta beklediği ve bu süre boyunca aracın serviste kaldığı belirtiliyor; bu yedek_parça ve süre konularını içeriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 70, \"duygu\": \"Olumsuz\", \"konular\": [\"yedek_parça\", \"süre\"], \"gerekce\": \"Metinde yedek parçanın iki hafta beklediği ve bu süre boyunca aracın serviste kaldığı belirtiliyor; bu yedek_parça ve süre konularını içeriyor.\"}"
+  },
+  {
+    "id": 71,
+    "metin": "Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",
+    "duygu": "Karışık",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri servis kalitesinden memnun olduğunu belirtiyor, ancak otopark eksikliği nedeniyle aracı sokağa bırakmak zorunda kaldığını ifade ediyor. Bu durum hizmetin olumlu yönünü olumsuz bir eksiklikle dengeleyerek karışık bir değerlendirme oluşturuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 71, \"duygu\": \"Karışık\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri servis kalitesinden memnun olduğunu belirtiyor, ancak otopark eksikliği nedeniyle aracı sokağa bırakmak zorunda kaldığını ifade ediyor. Bu durum hizmetin olumlu yönünü olumsuz bir eksiklikle dengeleyerek karışık bir değerlendirme oluşturuyor.\"}"
+  },
+  {
+    "id": 72,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Kısa \"İyi\" ifadesi, hizmetten memnuniyet ve takdir gösteriyor. Konu net olarak belirtilmediği için genel olumlu geri bildirim olarak \"diğer\" etiketi kullanıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 72, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Kısa \\\"İyi\\\" ifadesi, hizmetten memnuniyet ve takdir gösteriyor. Konu net olarak belirtilmediği için genel olumlu geri bildirim olarak \\\"diğer\\\" etiketi kullanıldı.\"}"
+  },
+  {
+    "id": 73,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Danışmanın ilgisiz olduğu ve sorulara düzgün cevap vermediği belirtilerek personel kalitesiyle ilgili bir şikayet sunulmuş.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 73, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Danışmanın ilgisiz olduğu ve sorulara düzgün cevap vermediği belirtilerek personel kalitesiyle ilgili bir şikayet sunulmuş.\"}"
+  },
+  {
+    "id": 74,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Araç içinde yağ lekesi ve koltuk kirli bırakılması, temizlik hizmetinin yetersiz olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 74, \"duygu\": \"Olumsuz\", \"konular\": [\"temizlik\"], \"gerekce\": \"Araç içinde yağ lekesi ve koltuk kirli bırakılması, temizlik hizmetinin yetersiz olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 75,
+    "metin": "Sorun yok.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"Sorun yok\" ifadesi, hizmetten memnuniyet ve sorunsuz bir deneyim yaşandığını gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 75, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"Sorun yok\\\" ifadesi, hizmetten memnuniyet ve sorunsuz bir deneyim yaşandığını gösteriyor.\"}"
+  },
+  {
+    "id": 76,
+    "metin": "Sorun yok.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Tekrar \"Sorun yok\" ifadesi, aynı şekilde olumlu bir deneyim ve memnuniyet bildiriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 76, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Tekrar \\\"Sorun yok\\\" ifadesi, aynı şekilde olumlu bir deneyim ve memnuniyet bildiriyor.\"}"
+  },
+  {
+    "id": 77,
+    "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+    "duygu": "Karışık",
+    "konular": [
+      "randevu"
+    ],
+    "gerekce": "Arıza çözüldüğü söylenirken, randevu sisteminin çok karışık olduğu ve üç kez aramak zorunda kalındığı ifade edilerek hem olumlu hem de olumsuz yönler vurgulanmış.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 77, \"duygu\": \"Karışık\", \"konular\": [\"randevu\"], \"gerekce\": \"Arıza çözüldüğü söylenirken, randevu sisteminin çok karışık olduğu ve üç kez aramak zorunda kalındığı ifade edilerek hem olumlu hem de olumsuz yönler vurgulanmış.\"}"
+  },
+  {
+    "id": 78,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarının verilen tekliften yüksek çıkması ve önceden bilgilendirilmemesi, fiyat konusundaki memnuniyetsizliği doğrudan ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 78, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarının verilen tekliften yüksek çıkması ve önceden bilgilendirilmemesi, fiyat konusundaki memnuniyetsizliği doğrudan ortaya koyuyor.\"}"
+  },
+  {
+    "id": 79,
+    "metin": "Kötü diyemem ama bir daha gelir miyim bilmiyorum.",
+    "duygu": "Karışık",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"Kötü diyemem ama bir daha gelir miyim bilmiyorum\" ifadesi, hem olumsuz bir izlenim hem de belirsiz bir gelecek beklentisi içeriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 79, \"duygu\": \"Karışık\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"Kötü diyemem ama bir daha gelir miyim bilmiyorum\\\" ifadesi, hem olumsuz bir izlenim hem de belirsiz bir gelecek beklentisi içeriyor.\"}"
+  },
+  {
+    "id": 80,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Tekrar \"İyi\" ifadesi, hizmetten memnuniyet ve takdir gösteriyor; konu net olmadığı için \"diğer\" etiketi kullanıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 80, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Tekrar \\\"İyi\\\" ifadesi, hizmetten memnuniyet ve takdir gösteriyor; konu net olmadığı için \\\"diğer\\\" etiketi kullanıldı.\"}"
+  },
+  {
+    "id": 81,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Randevu alma sürecinin kolay olması ve işlemin hızlı tamamlanması, memnun kaldım ifadesiyle olumlu bir deneyim sundu.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 81, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Randevu alma sürecinin kolay olması ve işlemin hızlı tamamlanması, memnun kaldım ifadesiyle olumlu bir deneyim sundu.\"}"
+  },
+  {
+    "id": 82,
+    "metin": "Fena değildi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Fena değildi ifadesi, hizmetten memnuniyetin varlığını gösteriyor, ancak net bir olumlu ifade yok.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 82, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Fena değildi ifadesi, hizmetten memnuniyetin varlığını gösteriyor, ancak net bir olumlu ifade yok.\"}"
+  },
+  {
+    "id": 83,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Danışmanın ilgisiz davranışı ve eksik cevaplar, müşteri memnuniyetsizliğine yol açtı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 83, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Danışmanın ilgisiz davranışı ve eksik cevaplar, müşteri memnuniyetsizliğine yol açtı.\"}"
+  },
+  {
+    "id": 84,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarının tekliften yüksek olması ve önceden bilgilendirilmemiş olmak, fiyat konusundaki şikâyeti ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 84, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarının tekliften yüksek olması ve önceden bilgilendirilmemiş olmak, fiyat konusundaki şikâyeti ortaya koyuyor.\"}"
+  },
+  {
+    "id": 85,
+    "metin": "Fena değildi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Fena değildi ifadesi, hizmetten memnuniyetin varlığını gösteriyor, ancak net bir olumlu ifade yok.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 85, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Fena değildi ifadesi, hizmetten memnuniyetin varlığını gösteriyor, ancak net bir olumlu ifade yok.\"}"
+  },
+  {
+    "id": 86,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "yedek_parça",
+      "süre"
+    ],
+    "gerekce": "İki haftalık yedek parça bekleme süresi ve aracın serviste kalması, bekleme süresi ve yedek parça temininde sorun yaşandığını gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 86, \"duygu\": \"Olumsuz\", \"konular\": [\"yedek_parça\", \"süre\"], \"gerekce\": \"İki haftalık yedek parça bekleme süresi ve aracın serviste kalması, bekleme süresi ve yedek parça temininde sorun yaşandığını gösteriyor.\"}"
+  },
+  {
+    "id": 87,
+    "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+    "duygu": "Olumlu",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Aracın teslim alındığı anda temizlenmiş olması, temizlik konusundaki memnuniyeti vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 87, \"duygu\": \"Olumlu\", \"konular\": [\"temizlik\"], \"gerekce\": \"Aracın teslim alındığı anda temizlenmiş olması, temizlik konusundaki memnuniyeti vurguluyor.\"}"
+  },
+  {
+    "id": 88,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Yedek araç sağlanması, hizmetin kolaylaştırıcı bir yönü olarak olumlu bir deneyim oluşturdu.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 88, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Yedek araç sağlanması, hizmetin kolaylaştırıcı bir yönü olarak olumlu bir deneyim oluşturdu.\"}"
+  },
+  {
+    "id": 89,
+    "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Rakip servisin aynı işlemi daha düşük fiyatla sunması, fiyat konusundaki memnuniyetsizliği ve tercih değişimini ifade ediyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 89, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Rakip servisin aynı işlemi daha düşük fiyatla sunması, fiyat konusundaki memnuniyetsizliği ve tercih değişimini ifade ediyor.\"}"
+  },
+  {
+    "id": 90,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarının tekliften yüksek olması ve önceden bilgilendirilmemiş olmak, fiyat konusundaki şikâyeti ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 90, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarının tekliften yüksek olması ve önceden bilgilendirilmemiş olmak, fiyat konusundaki şikâyeti ortaya koyuyor.\"}"
+  },
+  {
+    "id": 91,
+    "metin": "Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "süre"
+    ],
+    "gerekce": "Servis ekibi çok ilgiliydi, bu da personel konusunu destekliyor. Aracım söz verilen saatte hazırdı ifadesi, sürenin beklendiği gibi gerçekleştiğini gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 91, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"süre\"], \"gerekce\": \"Servis ekibi çok ilgiliydi, bu da personel konusunu destekliyor. Aracım söz verilen saatte hazırdı ifadesi, sürenin beklendiği gibi gerçekleştiğini gösteriyor.\"}"
+  },
+  {
+    "id": 92,
+    "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Rakip markanın servisinde aynı işlem daha ucuzdu ifadesi, fiyat konusundaki şikâyeti ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 92, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Rakip markanın servisinde aynı işlem daha ucuzdu ifadesi, fiyat konusundaki şikâyeti ortaya koyuyor.\"}"
+  },
+  {
+    "id": 93,
+    "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "fiyat"
+    ],
+    "gerekce": "Danışman bey her adımı tek tek anlattı, bu personel konusunu destekliyor. Fiyat konusunda da şeffaftı ifadesi, fiyat konusundaki olumlu deneyimi gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 93, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"fiyat\"], \"gerekce\": \"Danışman bey her adımı tek tek anlattı, bu personel konusunu destekliyor. Fiyat konusunda da şeffaftı ifadesi, fiyat konusundaki olumlu deneyimi gösteriyor.\"}"
+  },
+  {
+    "id": 94,
+    "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "randevu"
+    ],
+    "gerekce": "Randevu sistemi çok karışık ve üç kez aramak zorunda kaldım ifadesi, randevu konusundaki sorunları net bir şekilde ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 94, \"duygu\": \"Olumsuz\", \"konular\": [\"randevu\"], \"gerekce\": \"Randevu sistemi çok karışık ve üç kez aramak zorunda kaldım ifadesi, randevu konusundaki sorunları net bir şekilde ortaya koyuyor.\"}"
+  },
+  {
+    "id": 95,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "İyi. ifadesi, genel bir memnuniyeti ifade ediyor ve belirli bir konuya atıfta bulunmuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 95, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"İyi. ifadesi, genel bir memnuniyeti ifade ediyor ve belirli bir konuya atıfta bulunmuyor.\"}"
+  },
+  {
+    "id": 96,
+    "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Rakip markanın servisinde aynı işlem daha ucuzdu ifadesi, fiyat konusundaki şikâyeti net bir şekilde gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 96, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Rakip markanın servisinde aynı işlem daha ucuzdu ifadesi, fiyat konusundaki şikâyeti net bir şekilde gösteriyor.\"}"
+  },
+  {
+    "id": 97,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Randevu almak kolaydı ifadesi randevu konusunu destekliyor. İşlem hızlı bitti ifadesi ise sürenin beklendiği gibi hızlı geçtiğini gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 97, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Randevu almak kolaydı ifadesi randevu konusunu destekliyor. İşlem hızlı bitti ifadesi ise sürenin beklendiği gibi hızlı geçtiğini gösteriyor.\"}"
+  },
+  {
+    "id": 98,
+    "metin": "Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "süre"
+    ],
+    "gerekce": "Servis ekibi çok ilgiliydi, bu personel konusunu destekliyor. Aracım söz verilen saatte hazırdı ifadesi, sürenin beklendiği gibi gerçekleştiğini gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 98, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"süre\"], \"gerekce\": \"Servis ekibi çok ilgiliydi, bu personel konusunu destekliyor. Aracım söz verilen saatte hazırdı ifadesi, sürenin beklendiği gibi gerçekleştiğini gösteriyor.\"}"
+  },
+  {
+    "id": 99,
+    "metin": "İşçilik kalitesi iyiydi ama fiyatlandırma gerçekten pahalı.",
+    "duygu": "Karışık",
+    "konular": [
+      "iş_kalitesi",
+      "fiyat"
+    ],
+    "gerekce": "İşçilik kalitesi iyiydi ifadesi iş_kalitesi konusundaki olumlu görüşü gösteriyor. Fiyatlandırma gerçekten pahalı ifadesi ise fiyat konusundaki olumsuz görüşü ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 99, \"duygu\": \"Karışık\", \"konular\": [\"iş_kalitesi\", \"fiyat\"], \"gerekce\": \"İşçilik kalitesi iyiydi ifadesi iş_kalitesi konusundaki olumlu görüşü gösteriyor. Fiyatlandırma gerçekten pahalı ifadesi ise fiyat konusundaki olumsuz görüşü ortaya koyuyor.\"}"
+  },
+  {
+    "id": 100,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "İyi. ifadesi, genel bir memnuniyeti ifade ediyor ve belirli bir konuya atıfta bulunmuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 100, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"İyi. ifadesi, genel bir memnuniyeti ifade ediyor ve belirli bir konuya atıfta bulunmuyor.\"}"
+  },
+  {
+    "id": 101,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Danışmanın ilgisiz davranışı ve sorulara yeterli cevap vermemesi, müşteri memnuniyetsizliğine yol açtı. Bu durum personel kalitesiyle ilgili olumsuz bir deneyim olarak değerlendirilebilir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 101, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Danışmanın ilgisiz davranışı ve sorulara yeterli cevap vermemesi, müşteri memnuniyetsizliğine yol açtı. Bu durum personel kalitesiyle ilgili olumsuz bir deneyim olarak değerlendirilebilir.\"}"
+  },
+  {
+    "id": 102,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"İyi\" ifadesi genel bir memnuniyeti ifade ediyor, ancak belirli bir konuya değinmiyor. Bu nedenle genel olumlu bir geri bildirim olarak sınıflandırılıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 102, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"İyi\\\" ifadesi genel bir memnuniyeti ifade ediyor, ancak belirli bir konuya değinmiyor. Bu nedenle genel olumlu bir geri bildirim olarak sınıflandırılıyor.\"}"
+  },
+  {
+    "id": 103,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarının verilen tekliften yüksek çıkması ve önceden bilgilendirilmemesi, fiyat konusundaki şikâyeti net bir şekilde ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 103, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarının verilen tekliften yüksek çıkması ve önceden bilgilendirilmemesi, fiyat konusundaki şikâyeti net bir şekilde ortaya koyuyor.\"}"
+  },
+  {
+    "id": 104,
+    "metin": "?",
+    "duygu": "Alakasız",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Sadece bir soru işareti içeriyor; metinde hizmetle ilgili anlamlı bir bilgi bulunmuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 104, \"duygu\": \"Alakasız\", \"konular\": [\"diğer\"], \"gerekce\": \"Sadece bir soru işareti içeriyor; metinde hizmetle ilgili anlamlı bir bilgi bulunmuyor.\"}"
+  },
+  {
+    "id": 105,
+    "metin": "Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "süre"
+    ],
+    "gerekce": "Servis ekibinin çok ilgili olması ve aracın söz verilen saatte hazır olması, hem personel hem de süre konularında olumlu bir deneyim sunuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 105, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"süre\"], \"gerekce\": \"Servis ekibinin çok ilgili olması ve aracın söz verilen saatte hazır olması, hem personel hem de süre konularında olumlu bir deneyim sunuyor.\"}"
+  },
+  {
+    "id": 106,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Aracın içinde yağ lekesi bırakılması ve koltuk kirlenmesi, temizlik konusundaki memnuniyetsizliği doğrudan gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 106, \"duygu\": \"Olumsuz\", \"konular\": [\"temizlik\"], \"gerekce\": \"Aracın içinde yağ lekesi bırakılması ve koltuk kirlenmesi, temizlik konusundaki memnuniyetsizliği doğrudan gösteriyor.\"}"
+  },
+  {
+    "id": 107,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarının tekliften yüksek çıkması ve önceden bilgilendirilmemesi, fiyat konusundaki şikâyeti net bir şekilde ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 107, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarının tekliften yüksek çıkması ve önceden bilgilendirilmemesi, fiyat konusundaki şikâyeti net bir şekilde ortaya koyuyor.\"}"
+  },
+  {
+    "id": 108,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "yedek_parça",
+      "süre"
+    ],
+    "gerekce": "Yedek parçanın iki hafta beklemesi ve bu süre boyunca aracın serviste kalması, hem yedek parça temini hem de bekleme süresi konularında olumsuz bir deneyim yaratıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 108, \"duygu\": \"Olumsuz\", \"konular\": [\"yedek_parça\", \"süre\"], \"gerekce\": \"Yedek parçanın iki hafta beklemesi ve bu süre boyunca aracın serviste kalması, hem yedek parça temini hem de bekleme süresi konularında olumsuz bir deneyim yaratıyor.\"}"
+  },
+  {
+    "id": 109,
+    "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Beklenen süreden erken bitirilmesi ve aradılar haber vermesi, süre konusundaki memnuniyeti olumlu bir şekilde yansıtıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 109, \"duygu\": \"Olumlu\", \"konular\": [\"süre\"], \"gerekce\": \"Beklenen süreden erken bitirilmesi ve aradılar haber vermesi, süre konusundaki memnuniyeti olumlu bir şekilde yansıtıyor.\"}"
+  },
+  {
+    "id": 110,
+    "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+    "duygu": "Olumlu",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Aracı teslim alırken içinin temizlenmiş olması, temizlik konusundaki memnuniyeti olumlu bir detay olarak vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 110, \"duygu\": \"Olumlu\", \"konular\": [\"temizlik\"], \"gerekce\": \"Aracı teslim alırken içinin temizlenmiş olması, temizlik konusundaki memnuniyeti olumlu bir detay olarak vurguluyor.\"}"
+  },
+  {
+    "id": 111,
+    "metin": "?",
+    "duygu": "Alakasız",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metin sadece bir soru işareti içeriyor, herhangi bir bilgi veya duygu ifadesi yok. Bu nedenle metin anlamsız ve servisle ilgili değil.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 111, \"duygu\": \"Alakasız\", \"konular\": [\"diğer\"], \"gerekce\": \"Metin sadece bir soru işareti içeriyor, herhangi bir bilgi veya duygu ifadesi yok. Bu nedenle metin anlamsız ve servisle ilgili değil.\"}"
+  },
+  {
+    "id": 112,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Metinde randevu alma sürecinin kolay olduğu ve işlemin hızlı bittiği belirtiliyor. Ayrıca 'memnun kaldım' ifadesi müşteri memnuniyetini gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 112, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Metinde randevu alma sürecinin kolay olduğu ve işlemin hızlı bittiği belirtiliyor. Ayrıca 'memnun kaldım' ifadesi müşteri memnuniyetini gösteriyor.\"}"
+  },
+  {
+    "id": 113,
+    "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+    "duygu": "Olumlu",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Aracın teslim alındığında içinin temiz olduğu vurgulanıyor, bu da temizlik hizmetine olumlu bir bakış açısı sunuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 113, \"duygu\": \"Olumlu\", \"konular\": [\"temizlik\"], \"gerekce\": \"Aracın teslim alındığında içinin temiz olduğu vurgulanıyor, bu da temizlik hizmetine olumlu bir bakış açısı sunuyor.\"}"
+  },
+  {
+    "id": 114,
+    "metin": "Teşekkürler",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Kullanıcı sadece 'Teşekkürler' diyerek minnettarlığını ifade ediyor. Konu net olarak belirtilmemiş, bu yüzden genel diğer konu olarak sınıflandırılıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 114, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Kullanıcı sadece 'Teşekkürler' diyerek minnettarlığını ifade ediyor. Konu net olarak belirtilmemiş, bu yüzden genel diğer konu olarak sınıflandırılıyor.\"}"
+  },
+  {
+    "id": 115,
+    "metin": "İyi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Kısa 'İyi' ifadesi olumlu bir değerlendirme olarak algılanıyor. Konu net değil, bu yüzden diğer kategoriye yer veriliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 115, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Kısa 'İyi' ifadesi olumlu bir değerlendirme olarak algılanıyor. Konu net değil, bu yüzden diğer kategoriye yer veriliyor.\"}"
+  },
+  {
+    "id": 116,
+    "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Kampanya mesajının şubede geçerli olmadığı bildiriliyor, bu durum müşteri için olumsuz bir deneyim oluşturuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 116, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Kampanya mesajının şubede geçerli olmadığı bildiriliyor, bu durum müşteri için olumsuz bir deneyim oluşturuyor.\"}"
+  },
+  {
+    "id": 117,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Telefonla kimseye ulaşamama ve çağrı merkezinin sürekli meşgul olması, personel iletişimiyle ilgili bir sorun olarak değerlendiriliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 117, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Telefonla kimseye ulaşamama ve çağrı merkezinin sürekli meşgul olması, personel iletişimiyle ilgili bir sorun olarak değerlendiriliyor.\"}"
+  },
+  {
+    "id": 118,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Fatura tutarının tekliften yüksek çıkması ve önceden bilgilendirilmemesi fiyat konusundaki bir şikâyeti ortaya koyuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 118, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Fatura tutarının tekliften yüksek çıkması ve önceden bilgilendirilmemesi fiyat konusundaki bir şikâyeti ortaya koyuyor.\"}"
+  },
+  {
+    "id": 119,
+    "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Beklenenden erken bitiş ve haber verilmesi müşteri memnuniyetini artıran olumlu bir durum. Süre konusuna işaret ediyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 119, \"duygu\": \"Olumlu\", \"konular\": [\"süre\"], \"gerekce\": \"Beklenenden erken bitiş ve haber verilmesi müşteri memnuniyetini artıran olumlu bir durum. Süre konusuna işaret ediyor.\"}"
+  },
+  {
+    "id": 120,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Aracın içinde yağ lekesi ve koltuk kirlenmesi temizlik hizmetinin yetersiz olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 120, \"duygu\": \"Olumsuz\", \"konular\": [\"temizlik\"], \"gerekce\": \"Aracın içinde yağ lekesi ve koltuk kirlenmesi temizlik hizmetinin yetersiz olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 121,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 122,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 123,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 124,
+    "metin": "Teşekkürler",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 125,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 126,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 127,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 128,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 129,
+    "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 130,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "",
+    "konular": [],
+    "gerekce": "",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "NVIDIA isteği 121-130 grubunda durdu (APITimeoutError)",
+    "ham_cevap": ""
+  },
+  {
+    "id": 131,
+    "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+    "duygu": "Karışık",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Metinde \"Harika bir deneyimdi\" olumlu bir ifade, ancak \"sadece üç hafta bekledim\" ifadesi bekleme süresinin uzunluğunu vurgulayarak olumsuz bir yön gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 131, \"duygu\": \"Karışık\", \"konular\": [\"süre\"], \"gerekce\": \"Metinde \\\"Harika bir deneyimdi\\\" olumlu bir ifade, ancak \\\"sadece üç hafta bekledim\\\" ifadesi bekleme süresinin uzunluğunu vurgulayarak olumsuz bir yön gösteriyor.\"}"
+  },
+  {
+    "id": 132,
+    "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "iş_kalitesi"
+    ],
+    "gerekce": "\"Hiç de memnun kalmadım\" ifadesi net bir şikâyeti dile getirirken, \"işlerini biliyorlar\" ifadesi iş kalitesiyle ilgili olumlu bir gözlem sunuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 132, \"duygu\": \"Olumsuz\", \"konular\": [\"iş_kalitesi\"], \"gerekce\": \"\\\"Hiç de memnun kalmadım\\\" ifadesi net bir şikâyeti dile getirirken, \\\"işlerini biliyorlar\\\" ifadesi iş kalitesiyle ilgili olumlu bir gözlem sunuyor.\"}"
+  },
+  {
+    "id": 133,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "\"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul\" ifadesi, çağrı merkezi çalışanlarının iletişiminde yaşanan sorunu doğrudan işaret ediyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 133, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"\\\"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul\\\" ifadesi, çağrı merkezi çalışanlarının iletişiminde yaşanan sorunu doğrudan işaret ediyor.\"}"
+  },
+  {
+    "id": 134,
+    "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "süre",
+      "personel"
+    ],
+    "gerekce": "\"Beklediğimden erken bitti\" ifadesi sürenin olumlu bir yönünü vurgularken, \"aradılar haber verdiler\" ifadesi personelin iletişim becerilerini öne çıkarıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 134, \"duygu\": \"Olumlu\", \"konular\": [\"süre\", \"personel\"], \"gerekce\": \"\\\"Beklediğimden erken bitti\\\" ifadesi sürenin olumlu bir yönünü vurgularken, \\\"aradılar haber verdiler\\\" ifadesi personelin iletişim becerilerini öne çıkarıyor.\"}"
+  },
+  {
+    "id": 135,
+    "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım\" ifadesi ödeme sürecinde yaşanan olumsuzluğu açıkça belirtiyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 135, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım\\\" ifadesi ödeme sürecinde yaşanan olumsuzluğu açıkça belirtiyor.\"}"
+  },
+  {
+    "id": 136,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "\"Randevu almak kolaydı\" ve \"işlem hızlı bitti\" ifadeleri, randevu alma sürecinin ve işlemin süresinin olumlu yönlerini gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 136, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"\\\"Randevu almak kolaydı\\\" ve \\\"işlem hızlı bitti\\\" ifadeleri, randevu alma sürecinin ve işlemin süresinin olumlu yönlerini gösteriyor.\"}"
+  },
+  {
+    "id": 137,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "yedek_parça",
+      "süre"
+    ],
+    "gerekce": "\"Yedek parça iki hafta bekledi\" ifadesi, yedek parça temin süresinin uzunluğunu ve bu sürede aracın serviste kalmasını vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 137, \"duygu\": \"Olumsuz\", \"konular\": [\"yedek_parça\", \"süre\"], \"gerekce\": \"\\\"Yedek parça iki hafta bekledi\\\" ifadesi, yedek parça temin süresinin uzunluğunu ve bu sürede aracın serviste kalmasını vurguluyor.\"}"
+  },
+  {
+    "id": 138,
+    "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "fiyat"
+    ],
+    "gerekce": "\"Danışman bey her adımı tek tek anlattı\" ve \"fiyat konusunda da şeffaftı\" ifadeleri, personelin açıklayıcı davranışını ve fiyat şeffaflığını öne çıkarıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 138, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"fiyat\"], \"gerekce\": \"\\\"Danışman bey her adımı tek tek anlattı\\\" ve \\\"fiyat konusunda da şeffaftı\\\" ifadeleri, personelin açıklayıcı davranışını ve fiyat şeffaflığını öne çıkarıyor.\"}"
+  },
+  {
+    "id": 139,
+    "metin": "Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",
+    "duygu": "Karışık",
+    "konular": [
+      "iş_kalitesi",
+      "diğer"
+    ],
+    "gerekce": "\"Servis iyi\" olumlu bir değerlendirme iken, \"otopark yok, aracı sokağa bırakmak zorunda kaldım\" ifadesi eksik bir hizmeti (otopark) vurgulayarak olumsuz bir yön gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 139, \"duygu\": \"Karışık\", \"konular\": [\"iş_kalitesi\", \"diğer\"], \"gerekce\": \"\\\"Servis iyi\\\" olumlu bir değerlendirme iken, \\\"otopark yok, aracı sokağa bırakmak zorunda kaldım\\\" ifadesi eksik bir hizmeti (otopark) vurgulayarak olumsuz bir yön gösteriyor.\"}"
+  },
+  {
+    "id": 140,
+    "metin": "Fena değildi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "\"Fena değildi\" ifadesi, hizmetin kötü olmadığını belirterek hafif bir olumlu görüş sunuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 140, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"\\\"Fena değildi\\\" ifadesi, hizmetin kötü olmadığını belirterek hafif bir olumlu görüş sunuyor.\"}"
+  },
+  {
+    "id": 141,
+    "metin": "Bir yıldız bile fazla.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'Bir yıldız bile fazla' ifadesi, memnuniyetsizliği açıkça gösteriyor; konu başlığı yok, bu yüzden 'diğer' etiketi kullanıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 141, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'Bir yıldız bile fazla' ifadesi, memnuniyetsizliği açıkça gösteriyor; konu başlığı yok, bu yüzden 'diğer' etiketi kullanıldı.\"}"
+  },
+  {
+    "id": 142,
+    "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'Hiç de memnun kalmadım' ifadesi olumsuz duygu taşıyor; konu belirtilmemiş, bu yüzden 'diğer' etiketi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 142, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'Hiç de memnun kalmadım' ifadesi olumsuz duygu taşıyor; konu belirtilmemiş, bu yüzden 'diğer' etiketi.\"}"
+  },
+  {
+    "id": 143,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde 'Danışman ilgisizdi' ve 'sorduğum soruya doğru düzgün cevap vermedi' ifadeleri personel hizmetine yönelik şikâyeti gösteriyor; bu yüzden 'personel' etiketi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 143, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde 'Danışman ilgisizdi' ve 'sorduğum soruya doğru düzgün cevap vermedi' ifadeleri personel hizmetine yönelik şikâyeti gösteriyor; bu yüzden 'personel' etiketi.\"}"
+  },
+  {
+    "id": 144,
+    "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+    "duygu": "Karışık",
+    "konular": [
+      "temizlik",
+      "personel",
+      "yedek_parça"
+    ],
+    "gerekce": "Metinde hem 'Servis temizdi' (temizlik) hem 'ekip güler yüzlüydü' (personel) hem de 'yedek parça beklemesi can sıkıcıydı' (yedek_parça) olumlu ve olumsuz ifadeler bulunuyor; bu yüzden duygu Karışık ve konular temizlik, personel, yedek_parça.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 144, \"duygu\": \"Karışık\", \"konular\": [\"temizlik\", \"personel\", \"yedek_parça\"], \"gerekce\": \"Metinde hem 'Servis temizdi' (temizlik) hem 'ekip güler yüzlüydü' (personel) hem de 'yedek parça beklemesi can sıkıcıydı' (yedek_parça) olumlu ve olumsuz ifadeler bulunuyor; bu yüzden duygu Karışık ve konular temizlik, personel, yedek_parça.\"}"
+  },
+  {
+    "id": 145,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Metinde 'Randevu almak kolaydı' (randevu) ve 'işlem hızlı bitti' (süre) olumlu ifadeler var; duygu Olumlu.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 145, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Metinde 'Randevu almak kolaydı' (randevu) ve 'işlem hızlı bitti' (süre) olumlu ifadeler var; duygu Olumlu.\"}"
+  },
+  {
+    "id": 146,
+    "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Metinde 'Fiyat çok yüksek geldi' ifadesi fiyat konusundaki memnuniyetsizliği gösteriyor; duygu Olumsuz.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 146, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Metinde 'Fiyat çok yüksek geldi' ifadesi fiyat konusundaki memnuniyetsizliği gösteriyor; duygu Olumsuz.\"}"
+  },
+  {
+    "id": 147,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Metinde 'Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti' ifadesi araç temizliğinin eksik olduğunu belirtiyor; konu temizlik.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 147, \"duygu\": \"Olumsuz\", \"konular\": [\"temizlik\"], \"gerekce\": \"Metinde 'Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti' ifadesi araç temizliğinin eksik olduğunu belirtiyor; konu temizlik.\"}"
+  },
+  {
+    "id": 148,
+    "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+    "duygu": "Olumlu",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Metinde 'Harika bir deneyimdi' olumlu duygu taşıyor; 'sadece üç hafta bekledim' ise süre konusunu işaret ediyor; duygu Olumlu.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 148, \"duygu\": \"Olumlu\", \"konular\": [\"süre\"], \"gerekce\": \"Metinde 'Harika bir deneyimdi' olumlu duygu taşıyor; 'sadece üç hafta bekledim' ise süre konusunu işaret ediyor; duygu Olumlu.\"}"
+  },
+  {
+    "id": 149,
+    "metin": "Fena değildi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'Fena değildi' ifadesi hafif olumlu bir değerlendirme; konu yok, 'diğer' etiketi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 149, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'Fena değildi' ifadesi hafif olumlu bir değerlendirme; konu yok, 'diğer' etiketi.\"}"
+  },
+  {
+    "id": 150,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'İkinci kez geliyorum, yine sorunsuz' ve 'Ekibe teşekkürler' olumlu duygu taşıyor; konu yok, 'diğer' etiketi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 150, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'İkinci kez geliyorum, yine sorunsuz' ve 'Ekibe teşekkürler' olumlu duygu taşıyor; konu yok, 'diğer' etiketi.\"}"
+  },
+  {
+    "id": 151,
+    "metin": "Teşekkürler",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri teşekkür ederek memnuniyetini ifade etti. Bu kısa mesaj, hizmetten memnuniyet duyduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 151, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri teşekkür ederek memnuniyetini ifade etti. Bu kısa mesaj, hizmetten memnuniyet duyduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 152,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Müşteri aracın içinde yağ lekesi ve koltuk kirli olduğunu belirterek memnuniyetsizliğini dile getirdi. Bu durum, aracın temizliğinin yetersiz olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 152, \"duygu\": \"Olumsuz\", \"konular\": [\"temizlik\"], \"gerekce\": \"Müşteri aracın içinde yağ lekesi ve koltuk kirli olduğunu belirterek memnuniyetsizliğini dile getirdi. Bu durum, aracın temizliğinin yetersiz olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 153,
+    "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+    "duygu": "Olumlu",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Müşteri aracı teslim alırken içinin temiz olduğunu ve bu detayın güzel olduğunu belirtti. Bu olumlu geri bildirim, temizlik hizmetinden memnuniyet gösterdiğini gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 153, \"duygu\": \"Olumlu\", \"konular\": [\"temizlik\"], \"gerekce\": \"Müşteri aracı teslim alırken içinin temiz olduğunu ve bu detayın güzel olduğunu belirtti. Bu olumlu geri bildirim, temizlik hizmetinden memnuniyet gösterdiğini gösteriyor.\"}"
+  },
+  {
+    "id": 154,
+    "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+    "duygu": "Karışık",
+    "konular": [
+      "randevu"
+    ],
+    "gerekce": "Müşteri arızanın çözüldüğünü söyleyerek olumlu bir yön gösteriyor, ancak randevu sisteminin çok karışık olduğunu ve üç kez aramak zorunda kaldığını belirterek memnuniyetsizliğini dile getiriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 154, \"duygu\": \"Karışık\", \"konular\": [\"randevu\"], \"gerekce\": \"Müşteri arızanın çözüldüğünü söyleyerek olumlu bir yön gösteriyor, ancak randevu sisteminin çok karışık olduğunu ve üç kez aramak zorunda kaldığını belirterek memnuniyetsizliğini dile getiriyor.\"}"
+  },
+  {
+    "id": 155,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri yedek araç verilmesinin büyük kolaylık olduğunu belirterek memnuniyetini ifade etti. Bu olumlu yorum, ek hizmetin değerli olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 155, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri yedek araç verilmesinin büyük kolaylık olduğunu belirterek memnuniyetini ifade etti. Bu olumlu yorum, ek hizmetin değerli olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 156,
+    "metin": "Fena değildi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri hizmeti 'fena değildi' diyerek genel memnuniyetini ifade etti. Bu ifade, hizmetin beklentileri karşıladığını gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 156, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri hizmeti 'fena değildi' diyerek genel memnuniyetini ifade etti. Bu ifade, hizmetin beklentileri karşıladığını gösteriyor.\"}"
+  },
+  {
+    "id": 157,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "yedek_parça",
+      "süre"
+    ],
+    "gerekce": "Müşteri yedek parçanın iki hafta beklediğini ve bu süre boyunca aracın serviste kaldığını belirterek memnuniyetsizliğini dile getirdi. Bu durum, yedek parça temin sürecinin uzun olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 157, \"duygu\": \"Olumsuz\", \"konular\": [\"yedek_parça\", \"süre\"], \"gerekce\": \"Müşteri yedek parçanın iki hafta beklediğini ve bu süre boyunca aracın serviste kaldığını belirterek memnuniyetsizliğini dile getirdi. Bu durum, yedek parça temin sürecinin uzun olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 158,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Müşteri telefonla kimseye ulaşamadığını ve çağrı merkezinin sürekli meşgul olduğunu belirterek memnuniyetsizliğini ifade etti. Bu, personel iletişiminin yetersiz olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 158, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Müşteri telefonla kimseye ulaşamadığını ve çağrı merkezinin sürekli meşgul olduğunu belirterek memnuniyetsizliğini ifade etti. Bu, personel iletişiminin yetersiz olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 159,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri yedek araç verilmesinin büyük kolaylık olduğunu belirterek memnuniyetini ifade etti. Bu olumlu geri bildirim, ek hizmetin değerli olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 159, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri yedek araç verilmesinin büyük kolaylık olduğunu belirterek memnuniyetini ifade etti. Bu olumlu geri bildirim, ek hizmetin değerli olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 160,
+    "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+    "duygu": "Olumlu",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Müşteri randevu almanın kolay olduğunu ve işlemin hızlı bittiğini belirterek memnuniyetini ifade etti. Bu olumlu yorum, randevu sistemi ve işlem süresinin beklentileri karşıladığını gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 160, \"duygu\": \"Olumlu\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Müşteri randevu almanın kolay olduğunu ve işlemin hızlı bittiğini belirterek memnuniyetini ifade etti. Bu olumlu yorum, randevu sistemi ve işlem süresinin beklentileri karşıladığını gösteriyor.\"}"
+  },
+  {
+    "id": 161,
+    "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, yedek araç verilmesinin büyük bir kolaylık olduğunu belirtti. Bu olumlu ifade, hizmetin müşteri memnuniyetine katkıda bulunduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 161, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, yedek araç verilmesinin büyük bir kolaylık olduğunu belirtti. Bu olumlu ifade, hizmetin müşteri memnuniyetine katkıda bulunduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 162,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "iş_kalitesi"
+    ],
+    "gerekce": "İkinci kez gelen müşteri, hizmetin sorunsuz olduğunu ve ekibe teşekkür ettiğini ifade etti. Bu, hem personelin hem de iş kalitesinin memnuniyet verici olduğunu gösterir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 162, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"iş_kalitesi\"], \"gerekce\": \"İkinci kez gelen müşteri, hizmetin sorunsuz olduğunu ve ekibe teşekkür ettiğini ifade etti. Bu, hem personelin hem de iş kalitesinin memnuniyet verici olduğunu gösterir.\"}"
+  },
+  {
+    "id": 163,
+    "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Müşteri, fiyatın çok yüksek olduğunu ve aynı işi özel serviste yarı fiyata yaptırabileceğini belirtti. Bu, fiyat konusundaki memnuniyetsizliği açıkça ortaya koyar.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 163, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Müşteri, fiyatın çok yüksek olduğunu ve aynı işi özel serviste yarı fiyata yaptırabileceğini belirtti. Bu, fiyat konusundaki memnuniyetsizliği açıkça ortaya koyar.\"}"
+  },
+  {
+    "id": 164,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "Karışık",
+    "konular": [
+      "iş_kalitesi"
+    ],
+    "gerekce": "Müşteri, hizmetin mükemmel olmadığını ama beklentinin altında kalmadığını söyledi. Bu, hem olumlu hem de olumsuz bir değerlendirme içerdiği için karışık bir duygu olarak sınıflandırılır.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 164, \"duygu\": \"Karışık\", \"konular\": [\"iş_kalitesi\"], \"gerekce\": \"Müşteri, hizmetin mükemmel olmadığını ama beklentinin altında kalmadığını söyledi. Bu, hem olumlu hem de olumsuz bir değerlendirme içerdiği için karışık bir duygu olarak sınıflandırılır.\"}"
+  },
+  {
+    "id": 165,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "Karışık",
+    "konular": [
+      "iş_kalitesi"
+    ],
+    "gerekce": "Müşteri, hizmetin mükemmel olmadığını ama beklentinin altında kalmadığını belirtti. Bu ifade hem olumlu hem de olumsuz yönleri içerdiği için karışık olarak değerlendirildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 165, \"duygu\": \"Karışık\", \"konular\": [\"iş_kalitesi\"], \"gerekce\": \"Müşteri, hizmetin mükemmel olmadığını ama beklentinin altında kalmadığını belirtti. Bu ifade hem olumlu hem de olumsuz yönleri içerdiği için karışık olarak değerlendirildi.\"}"
+  },
+  {
+    "id": 166,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Müşteri, fatura tutarının verilen tekliften yüksek çıktığını ve önceden bilgilendirilmediğini söyledi. Bu, fiyat konusundaki memnuniyetsizliği net bir şekilde ortaya koyar.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 166, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Müşteri, fatura tutarının verilen tekliften yüksek çıktığını ve önceden bilgilendirilmediğini söyledi. Bu, fiyat konusundaki memnuniyetsizliği net bir şekilde ortaya koyar.\"}"
+  },
+  {
+    "id": 167,
+    "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "yedek_parça",
+      "süre"
+    ],
+    "gerekce": "Müşteri, yedek parçanın iki hafta beklediğini ve bu süre boyunca aracın serviste kaldığını belirtti. Bu, hem yedek parça temin süresi hem de bekleme süresi konularında olumsuz bir deneyim gösterir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 167, \"duygu\": \"Olumsuz\", \"konular\": [\"yedek_parça\", \"süre\"], \"gerekce\": \"Müşteri, yedek parçanın iki hafta beklediğini ve bu süre boyunca aracın serviste kaldığını belirtti. Bu, hem yedek parça temin süresi hem de bekleme süresi konularında olumsuz bir deneyim gösterir.\"}"
+  },
+  {
+    "id": 168,
+    "metin": "Bir yıldız bile fazla.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, \"Bir yıldız bile fazla\" diyerek hizmeti çok düşük buldu. Bu, genel bir memnuniyetsizlik ifadesi olarak değerlendirilir.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 168, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, \\\"Bir yıldız bile fazla\\\" diyerek hizmeti çok düşük buldu. Bu, genel bir memnuniyetsizlik ifadesi olarak değerlendirilir.\"}"
+  },
+  {
+    "id": 169,
+    "metin": "Fena değildi.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri, \"Fena değildi\" diyerek hizmetin kötü olmadığını belirtti. Bu ifade, hafif bir memnuniyeti yansıtır.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 169, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri, \\\"Fena değildi\\\" diyerek hizmetin kötü olmadığını belirtti. Bu ifade, hafif bir memnuniyeti yansıtır.\"}"
+  },
+  {
+    "id": 170,
+    "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+    "duygu": "Karışık",
+    "konular": [
+      "temizlik",
+      "personel",
+      "yedek_parça"
+    ],
+    "gerekce": "Müşteri, servis temizliğini ve ekip güler yüzlülüğünü övgüyle nitelendirdi, ancak yedek parça beklemesinin can sıkıcı olduğunu söyledi. Bu hem olumlu hem de olumsuz yönleri içerdiği için karışık olarak sınıflandırıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 170, \"duygu\": \"Karışık\", \"konular\": [\"temizlik\", \"personel\", \"yedek_parça\"], \"gerekce\": \"Müşteri, servis temizliğini ve ekip güler yüzlülüğünü övgüyle nitelendirdi, ancak yedek parça beklemesinin can sıkıcı olduğunu söyledi. Bu hem olumlu hem de olumsuz yönleri içerdiği için karışık olarak sınıflandırıldı.\"}"
+  },
+  {
+    "id": 171,
+    "metin": "Teşekkürler",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri \"Teşekkürler\" diyerek memnuniyetini ifade etti. Bu olumlu geri bildirimde belirgin bir konu yok, bu yüzden genel \"diğer\" etiketi kullanıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 171, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri \\\"Teşekkürler\\\" diyerek memnuniyetini ifade etti. Bu olumlu geri bildirimde belirgin bir konu yok, bu yüzden genel \\\"diğer\\\" etiketi kullanıldı.\"}"
+  },
+  {
+    "id": 172,
+    "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "iş_kalitesi"
+    ],
+    "gerekce": "Müşteri \"Hiç de memnun kalmadım\" diyerek iş kalitesi konusunda şikayet etti. İşin beklentileri karşılamadığına dair net bir ifade var.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 172, \"duygu\": \"Olumsuz\", \"konular\": [\"iş_kalitesi\"], \"gerekce\": \"Müşteri \\\"Hiç de memnun kalmadım\\\" diyerek iş kalitesi konusunda şikayet etti. İşin beklentileri karşılamadığına dair net bir ifade var.\"}"
+  },
+  {
+    "id": 173,
+    "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+    "duygu": "Karışık",
+    "konular": [
+      "temizlik",
+      "personel",
+      "yedek_parça"
+    ],
+    "gerekce": "Müşteri servis temizliğini ve ekip güler yüzlülüğünü övdü, ancak yedek parça beklemesinin can sıkıcı olduğunu belirtti. Olumlu ve olumsuz yönler aynı metinde yer alıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 173, \"duygu\": \"Karışık\", \"konular\": [\"temizlik\", \"personel\", \"yedek_parça\"], \"gerekce\": \"Müşteri servis temizliğini ve ekip güler yüzlülüğünü övdü, ancak yedek parça beklemesinin can sıkıcı olduğunu belirtti. Olumlu ve olumsuz yönler aynı metinde yer alıyor.\"}"
+  },
+  {
+    "id": 174,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Müşteri danışmanın ilgisiz olduğunu ve sorulara düzgün cevap vermediğini şikayet etti. Personel davranışı negatif bir konu olarak tanımlandı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 174, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Müşteri danışmanın ilgisiz olduğunu ve sorulara düzgün cevap vermediğini şikayet etti. Personel davranışı negatif bir konu olarak tanımlandı.\"}"
+  },
+  {
+    "id": 175,
+    "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri kampanya mesajının şubede geçerli olmadığını belirtti. Bu durum, kampanya iletişimiyle ilgili bir sorun olarak \"diğer\" etiketiyle sınıflandırıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 175, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri kampanya mesajının şubede geçerli olmadığını belirtti. Bu durum, kampanya iletişimiyle ilgili bir sorun olarak \\\"diğer\\\" etiketiyle sınıflandırıldı.\"}"
+  },
+  {
+    "id": 176,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Müşteri fatura tutarının tekliften yüksek çıktığını ve önceden bilgilendirilmediğini şikayet etti. Fiyat konusundaki memnuniyetsizlik net bir şekilde ifade edildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 176, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Müşteri fatura tutarının tekliften yüksek çıktığını ve önceden bilgilendirilmediğini şikayet etti. Fiyat konusundaki memnuniyetsizlik net bir şekilde ifade edildi.\"}"
+  },
+  {
+    "id": 177,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Müşteri danışmanın ilgisiz olduğunu ve sorulara düzgün cevap vermediğini yineledi. Personel davranışı olumsuz bir konu olarak tanımlandı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 177, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Müşteri danışmanın ilgisiz olduğunu ve sorulara düzgün cevap vermediğini yineledi. Personel davranışı olumsuz bir konu olarak tanımlandı.\"}"
+  },
+  {
+    "id": 178,
+    "metin": "Personel çok nazikti, sadece süre biraz uzun sürdü.",
+    "duygu": "Karışık",
+    "konular": [
+      "personel",
+      "süre"
+    ],
+    "gerekce": "Müşteri personelin nazik olduğunu övdü, ancak sürenin biraz uzun sürdüğünü belirtti. Olumlu ve olumsuz yönler aynı metinde yer alıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 178, \"duygu\": \"Karışık\", \"konular\": [\"personel\", \"süre\"], \"gerekce\": \"Müşteri personelin nazik olduğunu övdü, ancak sürenin biraz uzun sürdüğünü belirtti. Olumlu ve olumsuz yönler aynı metinde yer alıyor.\"}"
+  },
+  {
+    "id": 179,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Müşteri ikinci kez gelerek deneyimin sorunsuz olduğunu ve ekibe teşekkür etti. Genel memnuniyet ifadesi \"diğer\" etiketiyle sınıflandırıldı.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 179, \"duygu\": \"Olumlu\", \"konular\": [\"diğer\"], \"gerekce\": \"Müşteri ikinci kez gelerek deneyimin sorunsuz olduğunu ve ekibe teşekkür etti. Genel memnuniyet ifadesi \\\"diğer\\\" etiketiyle sınıflandırıldı.\"}"
+  },
+  {
+    "id": 180,
+    "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+    "duygu": "Karışık",
+    "konular": [
+      "süre"
+    ],
+    "gerekce": "Müşteri deneyiminin harika olduğunu belirtti, ancak üç hafta beklediğini ifade etti. Olumlu ve olumsuz yönler aynı metinde yer alıyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 180, \"duygu\": \"Karışık\", \"konular\": [\"süre\"], \"gerekce\": \"Müşteri deneyiminin harika olduğunu belirtti, ancak üç hafta beklediğini ifade etti. Olumlu ve olumsuz yönler aynı metinde yer alıyor.\"}"
+  },
+  {
+    "id": 181,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Müşteri fatura tutarının tekliften yüksek olduğunu ve önceden bilgilendirilmediğini belirtiyor, bu da fiyat konusundaki şikâyeti destekliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 181, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Müşteri fatura tutarının tekliften yüksek olduğunu ve önceden bilgilendirilmediğini belirtiyor, bu da fiyat konusundaki şikâyeti destekliyor.\"}"
+  },
+  {
+    "id": 182,
+    "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Müşteri danışmanın adımları açıklamasını ve fiyat şeffaflığını övmekte, bu da personel konusunu vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 182, \"duygu\": \"Olumlu\", \"konular\": [\"personel\"], \"gerekce\": \"Müşteri danışmanın adımları açıklamasını ve fiyat şeffaflığını övmekte, bu da personel konusunu vurguluyor.\"}"
+  },
+  {
+    "id": 183,
+    "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "POS cihazının çalışmaması nedeniyle nakit bulmak zorunda kalındığını belirtiyor, bu durum hizmetle ilgili genel bir şikâyet olarak 'diğer' konusunu oluşturuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 183, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"POS cihazının çalışmaması nedeniyle nakit bulmak zorunda kalındığını belirtiyor, bu durum hizmetle ilgili genel bir şikâyet olarak 'diğer' konusunu oluşturuyor.\"}"
+  },
+  {
+    "id": 184,
+    "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Çağrı merkezine ulaşımın mümkün olmadığını ve sürekli meşgul olduğunu belirtiyor, bu da hizmetle ilgili genel bir şikâyet olarak 'diğer' konusunu oluşturuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 184, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Çağrı merkezine ulaşımın mümkün olmadığını ve sürekli meşgul olduğunu belirtiyor, bu da hizmetle ilgili genel bir şikâyet olarak 'diğer' konusunu oluşturuyor.\"}"
+  },
+  {
+    "id": 185,
+    "metin": "Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "randevu"
+    ],
+    "gerekce": "Web sitesinden randevu alınamadığını ve hata mesajı aldığını ifade ediyor, bu da randevu konusundaki olumsuz deneyimi gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 185, \"duygu\": \"Olumsuz\", \"konular\": [\"randevu\"], \"gerekce\": \"Web sitesinden randevu alınamadığını ve hata mesajı aldığını ifade ediyor, bu da randevu konusundaki olumsuz deneyimi gösteriyor.\"}"
+  },
+  {
+    "id": 186,
+    "metin": "Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "iş_kalitesi"
+    ],
+    "gerekce": "Arızanın giderilmediğini ve aynı sesin devam ettiğini belirtiyor, bu da iş kalitesinin yetersiz olduğunu gösteriyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 186, \"duygu\": \"Olumsuz\", \"konular\": [\"iş_kalitesi\"], \"gerekce\": \"Arızanın giderilmediğini ve aynı sesin devam ettiğini belirtiyor, bu da iş kalitesinin yetersiz olduğunu gösteriyor.\"}"
+  },
+  {
+    "id": 187,
+    "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "POS cihazının çalışmaması nedeniyle nakit bulmak zorunda kalındığını belirtiyor, bu durum hizmetle ilgili genel bir şikâyet olarak 'diğer' konusunu oluşturuyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 187, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"POS cihazının çalışmaması nedeniyle nakit bulmak zorunda kalındığını belirtiyor, bu durum hizmetle ilgili genel bir şikâyet olarak 'diğer' konusunu oluşturuyor.\"}"
+  },
+  {
+    "id": 188,
+    "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "randevu"
+    ],
+    "gerekce": "Arıza çözüldüğünü belirtiyor ama randevu sisteminin çok karışık olduğunu ve üç kez aramak zorunda kaldığını ifade ediyor, bu da randevu konusundaki olumsuz deneyimi vurguluyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 188, \"duygu\": \"Olumsuz\", \"konular\": [\"randevu\"], \"gerekce\": \"Arıza çözüldüğünü belirtiyor ama randevu sisteminin çok karışık olduğunu ve üç kez aramak zorunda kaldığını ifade ediyor, bu da randevu konusundaki olumsuz deneyimi vurguluyor.\"}"
+  },
+  {
+    "id": 189,
+    "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "temizlik"
+    ],
+    "gerekce": "Araç içinde yağ lekesi ve koltuk kirli olduğunu belirtiyor, bu temizlik konusundaki şikâyeti destekliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 189, \"duygu\": \"Olumsuz\", \"konular\": [\"temizlik\"], \"gerekce\": \"Araç içinde yağ lekesi ve koltuk kirli olduğunu belirtiyor, bu temizlik konusundaki şikâyeti destekliyor.\"}"
+  },
+  {
+    "id": 190,
+    "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Müşteri fatura tutarının tekliften yüksek olduğunu ve önceden bilgilendirilmediğini belirtiyor, bu da fiyat konusundaki şikâyeti destekliyor.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 190, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Müşteri fatura tutarının tekliften yüksek olduğunu ve önceden bilgilendirilmediğini belirtiyor, bu da fiyat konusundaki şikâyeti destekliyor.\"}"
+  },
+  {
+    "id": 191,
+    "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+    "duygu": "Karışık",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'Mükemmel değildi' olumsuz bir ifade, 'beklentimin altında da kalmadı' ise olumlu bir ifade içerdiği için duygu Karışık olarak sınıflandırıldı. Konu olarak belirgin bir konu yok, bu yüzden 'diğer' etiketi verildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 191, \"duygu\": \"Karışık\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'Mükemmel değildi' olumsuz bir ifade, 'beklentimin altında da kalmadı' ise olumlu bir ifade içerdiği için duygu Karışık olarak sınıflandırıldı. Konu olarak belirgin bir konu yok, bu yüzden 'diğer' etiketi verildi.\"}"
+  },
+  {
+    "id": 192,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde 'yine sorunsuz' ve 'Ekibe teşekkürler' ifadeleri, personel konusunu olumlu bir şekilde vurguladığı için duygu Olumlu ve konu personel olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 192, \"duygu\": \"Olumlu\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde 'yine sorunsuz' ve 'Ekibe teşekkürler' ifadeleri, personel konusunu olumlu bir şekilde vurguladığı için duygu Olumlu ve konu personel olarak etiketlendi.\"}"
+  },
+  {
+    "id": 193,
+    "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde 'yine sorunsuz' ve 'Ekibe teşekkürler' ifadeleri, personel konusunu olumlu bir şekilde vurguladığı için duygu Olumlu ve konu personel olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 193, \"duygu\": \"Olumlu\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde 'yine sorunsuz' ve 'Ekibe teşekkürler' ifadeleri, personel konusunu olumlu bir şekilde vurguladığı için duygu Olumlu ve konu personel olarak etiketlendi.\"}"
+  },
+  {
+    "id": 194,
+    "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+    "duygu": "Karışık",
+    "konular": [
+      "temizlik",
+      "personel",
+      "yedek_parça"
+    ],
+    "gerekce": "Metinde 'Servis temizdi' temizlik konusunu olumlu, 'ekip güler yüzlüydü' personel konusunu olumlu, 'yedek parça beklemesi can sıkıcıydı' ise yedek_parça konusunu olumsuz olarak vurguladığı için duygu Karışık ve konular temizlik, personel, yedek_parça olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 194, \"duygu\": \"Karışık\", \"konular\": [\"temizlik\", \"personel\", \"yedek_parça\"], \"gerekce\": \"Metinde 'Servis temizdi' temizlik konusunu olumlu, 'ekip güler yüzlüydü' personel konusunu olumlu, 'yedek parça beklemesi can sıkıcıydı' ise yedek_parça konusunu olumsuz olarak vurguladığı için duygu Karışık ve konular temizlik, personel, yedek_parça olarak etiketlendi.\"}"
+  },
+  {
+    "id": 195,
+    "metin": "Kötü diyemem ama bir daha gelir miyim bilmiyorum.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'Kötü diyemem ama bir daha gelir miyim bilmiyorum' ifadesi, hizmetten memnuniyet eksikliği ve gelecekteki kullanım konusunda belirsizlik gösterdiği için duygu Olumsuz olarak etiketlendi. Konu olarak belirgin bir konu yok, bu yüzden 'diğer' etiketi verildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 195, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'Kötü diyemem ama bir daha gelir miyim bilmiyorum' ifadesi, hizmetten memnuniyet eksikliği ve gelecekteki kullanım konusunda belirsizlik gösterdiği için duygu Olumsuz olarak etiketlendi. Konu olarak belirgin bir konu yok, bu yüzden 'diğer' etiketi verildi.\"}"
+  },
+  {
+    "id": 196,
+    "metin": "Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",
+    "duygu": "Olumlu",
+    "konular": [
+      "personel",
+      "süre"
+    ],
+    "gerekce": "Metinde 'ekibi çok ilgiliydi' personel konusunu olumlu, 'aracım söz verilen saatte hazırdı' ise süre konusunu olumlu bir şekilde vurguladığı için duygu Olumlu ve konular personel, süre olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 196, \"duygu\": \"Olumlu\", \"konular\": [\"personel\", \"süre\"], \"gerekce\": \"Metinde 'ekibi çok ilgiliydi' personel konusunu olumlu, 'aracım söz verilen saatte hazırdı' ise süre konusunu olumlu bir şekilde vurguladığı için duygu Olumlu ve konular personel, süre olarak etiketlendi.\"}"
+  },
+  {
+    "id": 197,
+    "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "fiyat"
+    ],
+    "gerekce": "Metinde 'aynı işlem daha ucuzdu' ifadesi, fiyat konusunu vurguladığı için duygu Olumsuz ve konu fiyat olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 197, \"duygu\": \"Olumsuz\", \"konular\": [\"fiyat\"], \"gerekce\": \"Metinde 'aynı işlem daha ucuzdu' ifadesi, fiyat konusunu vurguladığı için duygu Olumsuz ve konu fiyat olarak etiketlendi.\"}"
+  },
+  {
+    "id": 198,
+    "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "personel"
+    ],
+    "gerekce": "Metinde 'Danışman ilgisizdi' ve 'sorduğum soruya doğru düzgün cevap vermedi' ifadeleri, personel konusunu olumsuz bir şekilde vurguladığı için duygu Olumsuz ve konu personel olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 198, \"duygu\": \"Olumsuz\", \"konular\": [\"personel\"], \"gerekce\": \"Metinde 'Danışman ilgisizdi' ve 'sorduğum soruya doğru düzgün cevap vermedi' ifadeleri, personel konusunu olumsuz bir şekilde vurguladığı için duygu Olumsuz ve konu personel olarak etiketlendi.\"}"
+  },
+  {
+    "id": 199,
+    "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "randevu",
+      "süre"
+    ],
+    "gerekce": "Metinde 'Randevu saatinde gittim ama iki saat bekledim' ve 'kimse bilgi vermedi' ifadeleri, randevu ve süre konularını olumsuz bir şekilde vurguladığı için duygu Olumsuz ve konular randevu, süre olarak etiketlendi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 199, \"duygu\": \"Olumsuz\", \"konular\": [\"randevu\", \"süre\"], \"gerekce\": \"Metinde 'Randevu saatinde gittim ama iki saat bekledim' ve 'kimse bilgi vermedi' ifadeleri, randevu ve süre konularını olumsuz bir şekilde vurguladığı için duygu Olumsuz ve konular randevu, süre olarak etiketlendi.\"}"
+  },
+  {
+    "id": 200,
+    "metin": "Bir yıldız bile fazla.",
+    "duygu": "Olumsuz",
+    "konular": [
+      "diğer"
+    ],
+    "gerekce": "Metinde 'Bir yıldız bile fazla' ifadesi, hizmetten memnuniyetsizlik gösterdiği için duygu Olumsuz ve konu olarak belirgin bir konu yok, bu yüzden 'diğer' etiketi verildi.",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "gpt-oss-20b-rationale-2-batched",
+    "hata": "",
+    "ham_cevap": "{\"id\": 200, \"duygu\": \"Olumsuz\", \"konular\": [\"diğer\"], \"gerekce\": \"Metinde 'Bir yıldız bile fazla' ifadesi, hizmetten memnuniyetsizlik gösterdiği için duygu Olumsuz ve konu olarak belirgin bir konu yok, bu yüzden 'diğer' etiketi verildi.\"}"
+  }
+]
