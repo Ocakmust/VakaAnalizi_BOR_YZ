@@ -1,3 +1,5 @@
+**Mustafa Ocak**
+
 # Teslim dosyaları ve notebook'u çalıştırma
 
 ## Notebook ne yapıyor?
