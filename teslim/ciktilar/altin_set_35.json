@@ -1,0 +1,319 @@
+{
+  "baslik": "Manuel altin etiketler - 35 benzersiz geri bildirim",
+  "etiketleyici": "human_single_annotator",
+  "yontem": "Duygu ve metinde acikca gecen tum konular, ortak etiket tanimlarina gore her metin icin tek tek belirlendi.",
+  "duygu_degerleri": [
+    "Olumlu",
+    "Olumsuz",
+    "Karışık",
+    "Alakasız"
+  ],
+  "konu_degerleri": [
+    "randevu",
+    "fiyat",
+    "süre",
+    "personel",
+    "iş_kalitesi",
+    "yedek_parça",
+    "temizlik",
+    "diğer"
+  ],
+  "n": 35,
+  "not": "Dosyadaki 35 benzersiz metin kullanildi; 200 geri bildirim icinde bunlarin tekrarlari bulunabilir.",
+  "kayitlar": [
+    {
+      "id": 1,
+      "metin": "Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "fiyat",
+        "iş_kalitesi"
+      ]
+    },
+    {
+      "id": 2,
+      "metin": "Sorun yok.",
+      "duygu": "Olumlu",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 3,
+      "metin": "Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",
+      "duygu": "Karışık",
+      "konular": [
+        "temizlik",
+        "personel",
+        "süre"
+      ]
+    },
+    {
+      "id": 4,
+      "metin": "Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "fiyat"
+      ]
+    },
+    {
+      "id": 5,
+      "metin": "İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",
+      "duygu": "Olumlu",
+      "konular": [
+        "personel",
+        "iş_kalitesi"
+      ]
+    },
+    {
+      "id": 6,
+      "metin": "Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",
+      "duygu": "Olumlu",
+      "konular": [
+        "randevu",
+        "süre"
+      ]
+    },
+    {
+      "id": 7,
+      "metin": "Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "randevu",
+        "süre",
+        "personel"
+      ]
+    },
+    {
+      "id": 8,
+      "metin": "Yedek araç verilmesi büyük kolaylık oldu.",
+      "duygu": "Olumlu",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 9,
+      "metin": "Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "personel"
+      ]
+    },
+    {
+      "id": 10,
+      "metin": "Harika bir deneyimdi, sadece üç hafta bekledim.",
+      "duygu": "Olumlu",
+      "konular": [
+        "süre"
+      ]
+    },
+    {
+      "id": 11,
+      "metin": "Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "personel"
+      ]
+    },
+    {
+      "id": 12,
+      "metin": "Kampanya mesajı geldi ama şubede geçerli değilmiş.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 13,
+      "metin": "-",
+      "duygu": "Alakasız",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 14,
+      "metin": "Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 15,
+      "metin": "Teşekkürler",
+      "duygu": "Olumlu",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 16,
+      "metin": "Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "randevu",
+        "diğer"
+      ]
+    },
+    {
+      "id": 17,
+      "metin": "Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "iş_kalitesi"
+      ]
+    },
+    {
+      "id": 18,
+      "metin": "Aracı teslim alırken içi temizlenmişti, güzel bir detay.",
+      "duygu": "Olumlu",
+      "konular": [
+        "temizlik"
+      ]
+    },
+    {
+      "id": 19,
+      "metin": "Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "temizlik",
+        "iş_kalitesi"
+      ]
+    },
+    {
+      "id": 20,
+      "metin": "Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",
+      "duygu": "Karışık",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 21,
+      "metin": "Hiç de memnun kalmadım denemez, işlerini biliyorlar.",
+      "duygu": "Olumlu",
+      "konular": [
+        "iş_kalitesi"
+      ]
+    },
+    {
+      "id": 22,
+      "metin": "Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",
+      "duygu": "Olumlu",
+      "konular": [
+        "personel"
+      ]
+    },
+    {
+      "id": 23,
+      "metin": "Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "yedek_parça",
+        "süre"
+      ]
+    },
+    {
+      "id": 24,
+      "metin": "Mükemmel değildi ama beklentimin altında da kalmadı.",
+      "duygu": "Karışık",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 25,
+      "metin": "Personel çok nazikti, sadece süre biraz uzun sürdü.",
+      "duygu": "Karışık",
+      "konular": [
+        "personel",
+        "süre"
+      ]
+    },
+    {
+      "id": 26,
+      "metin": "Kötü diyemem ama bir daha gelir miyim bilmiyorum.",
+      "duygu": "Karışık",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 27,
+      "metin": "İyi.",
+      "duygu": "Olumlu",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 28,
+      "metin": "Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "fiyat"
+      ]
+    },
+    {
+      "id": 29,
+      "metin": "Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",
+      "duygu": "Karışık",
+      "konular": [
+        "randevu"
+      ]
+    },
+    {
+      "id": 30,
+      "metin": "Fena değildi.",
+      "duygu": "Olumlu",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 31,
+      "metin": "Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",
+      "duygu": "Olumlu",
+      "konular": [
+        "personel",
+        "süre"
+      ]
+    },
+    {
+      "id": 32,
+      "metin": "İşçilik kalitesi iyiydi ama fiyatlandırma gerçekten pahalı.",
+      "duygu": "Karışık",
+      "konular": [
+        "iş_kalitesi",
+        "fiyat"
+      ]
+    },
+    {
+      "id": 33,
+      "metin": "?",
+      "duygu": "Alakasız",
+      "konular": [
+        "diğer"
+      ]
+    },
+    {
+      "id": 34,
+      "metin": "Beklediğimden erken bitti, aradılar haber verdiler.",
+      "duygu": "Olumlu",
+      "konular": [
+        "süre",
+        "personel"
+      ]
+    },
+    {
+      "id": 35,
+      "metin": "Bir yıldız bile fazla.",
+      "duygu": "Olumsuz",
+      "konular": [
+        "diğer"
+      ]
+    }
+  ]
+}

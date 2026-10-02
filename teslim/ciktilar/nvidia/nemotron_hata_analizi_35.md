@@ -2,7 +2,7 @@
 
 ## Değerlendirme yöntemi ve sonuç
 
-Kaydedilmiş Nemotron tahminleri, güncel `outputs/altin_set_35.json` etiketleriyle yeniden karşılaştırıldı. Aynı metin 200 örneklemde birden çok kez varsa ilk geçerli tahmin puanlamaya alındı; tekrar tahminleri ayrıca incelendi. Bu işlem yeni model/API çağrısı yapmadı.
+Kaydedilmiş Nemotron tahminleri, güncel [35 metinlik altın set](../altin_set_35.json) etiketleriyle yeniden karşılaştırıldı. Aynı metin 200 örneklemde birden çok kez varsa ilk geçerli tahmin puanlamaya alındı; tekrar tahminleri ayrıca incelendi. Bu işlem yeni model/API çağrısı yapmadı.
 
 | Ölçüm | Sonuç |
 |---|---:|

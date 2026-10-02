@@ -169,13 +169,13 @@ Kısacası model bu haliyle otomatik karar vermek için henüz yeterli değil: e
 
 ### 3.1 Etiketleme
 
-**İlgili veri ve çıktı:** [Nemotron tahmin verisi](ciktilar/nvidia/nemotron_etiketleme_200.jsonl) · [200 satırlık etiketler](ciktilar/llm_etiketleri_200.csv)
+**İlgili veri ve çıktı:** [Nemotron tahmin verisi](ciktilar/nvidia/nemotron_etiketleme_200.jsonl) · [Nemotron'un 200 etiketlik CSV çıktısı](ciktilar/nvidia/nemotron_etiketleme_200.csv)
 
-Kaynakta 640 geri bildirim satırı, 629 dolu metin fakat yalnızca **35 benzersiz dolu metin** var. Kaynaktan `random_state=42` ile 200 satır seçildi; bunlarda yine 35 benzersiz metin bulunuyor. Nemotron'un (`nvidia/nemotron-3.5-lightning-30b-a3b`) önceki 200 tahminini kullandık. Aynı metin için birden çok tahmin varsa en sık görülen duygu ve konu çiftini seçip kaynak `geri_bildirim_id` ile eşleştirdik. [200 satırlık CSV](ciktilar/llm_etiketleri_200.csv) duygu ve çoklu konu alanlarını içerir. Yedi metinde tekrar tahminleri farklıydı; bu yüzden sonuçlar seçtiğimiz yönteme bir miktar bağlı.
+Kaynakta 640 geri bildirim satırı, 629 dolu metin fakat yalnızca **35 benzersiz dolu metin** var. Kaynaktan `random_state=42` ile 200 satır seçildi; bunlarda yine 35 benzersiz metin bulunuyor. Nemotron'un (`nvidia/nemotron-3.5-lightning-30b-a3b`) önceki 200 tahminini kullandık. Aynı metin için birden çok tahmin varsa en sık görülen duygu ve konu çiftini seçip kaynak `geri_bildirim_id` ile eşleştirdik. [Nemotron'un CSV çıktısı](ciktilar/nvidia/nemotron_etiketleme_200.csv) duygu ve çoklu konu alanlarını içerir. Yedi metinde tekrar tahminleri farklıydı; bu yüzden sonuçlar seçtiğimiz yönteme bir miktar bağlı.
 
 ### 3.2 Etiketlerin doğruluğu
 
-**İlgili veriler:** [Nemotron kalite ölçümleri](ciktilar/nvidia/nemotron_kalite_35.json) · [Nemotron tahminleri](ciktilar/nvidia/nemotron_etiketleme_200.jsonl) · [GPT-OSS kalite ölçümleri](ciktilar/openai_gpt_oss_20b/gpt_oss_20b_kalite_35.json)
+**İlgili veriler:** [35 metinlik altın etiket seti](ciktilar/altin_set_35.json) · [Nemotron kalite ölçümleri](ciktilar/nvidia/nemotron_kalite_35.json) · [Nemotron tahminleri](ciktilar/nvidia/nemotron_etiketleme_200.jsonl) · [GPT-OSS kalite ölçümleri](ciktilar/openai_gpt_oss_20b/gpt_oss_20b_kalite_35.json)
 
 35 farklı metin için tek değerlendiricili bir altın etiket seti hazırlandı. Güncel etiketleri Nemotron'un bu metinler için ilk tahminleriyle karşılaştırınca duygu **31/35 (%88,6)**, tüm konular **14/35 (%40,0)** doğru çıktı. Konu mikro F1 **%63,9**; duygu ve konuların ikisi birlikte **13/35 (%37,1)** doğru.
 
@@ -193,7 +193,7 @@ Hata dağılımı, modelin konu etiketlerini bazen metindeki tek bir sözcük ya
 
 ### 3.3 Üç müşteri için müşteri temsilcisi önerisi
 
-**İlgili model girdileri:** [Churn modelinin SHAP açıklaması](kod/veri_analizi.ipynb#xgboost-shap-baslik) · [Geri bildirim etiketleri](ciktilar/llm_etiketleri_200.csv)
+**İlgili model girdileri:** [Churn modelinin SHAP açıklaması](kod/veri_analizi.ipynb#xgboost-shap-baslik) · [Nemotron geri bildirim etiketleri](ciktilar/nvidia/nemotron_etiketleme_200.csv)
 
 
 

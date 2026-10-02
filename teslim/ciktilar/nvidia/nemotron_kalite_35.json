@@ -1,7 +1,7 @@
 {
   "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
-  "dosya": "outputs/nvidia/nemotron_etiketleme_200.jsonl",
-  "altin_set": "outputs/altin_set_35.json",
+  "dosya": "nemotron_etiketleme_200.jsonl",
+  "altin_set": "../altin_set_35.json",
   "degerlendirme_yontemi": "35 benzersiz altin metin kullanildi. Aynı metin 200 örneklemde tekrarlanıyorsa doğruluk hesabında 200.txt sırasındaki ilk geçerli tahmin esas alındı; bütün tekrar tahminleri ve kaynak satır numaraları ayrıca kaydedildi.",
   "istek_ayarlari": {
     "temperature": 0,

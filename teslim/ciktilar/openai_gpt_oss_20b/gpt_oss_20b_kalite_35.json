@@ -1,7 +1,7 @@
 {
   "model": "openai/gpt-oss-20b",
-  "dosya": "outputs/openai_gpt_oss_20b/gpt_oss_20b_etiketleme_200.jsonl",
-  "altin_set": "outputs/altin_set_35.json",
+  "dosya": "gpt_oss_20b_etiketleme_200.jsonl",
+  "altin_set": "../altin_set_35.json",
   "degerlendirme_yontemi": "35 benzersiz altin metin kullanildi. Aynı metin 200 örneklemde tekrarlanıyorsa doğruluk hesabında 200.txt sırasındaki ilk geçerli tahmin esas alındı; bütün tekrar tahminleri ve kaynak satır numaraları ayrıca kaydedildi.",
   "istek_ayarlari": {
     "temperature": 0,
